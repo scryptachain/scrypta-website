@@ -73,7 +73,7 @@
 			<div class="container bring-to-front">
 				<div class="section-heading text-center">
 					<h2>Features</h2>
-					<p class="lead">L’algoritmo di Scrypta regola la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo <strong>Masternode/PoS</strong> (Proof of Stake).</p>
+					<p class="lead">L’algoritmo di Scrypta regola la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo <strong>Masternode/PoS</strong>.</p>
 				</div>
 				<div class="row align-items-center gap-y">
 					<div class="col-md-12 text-center text-md-left">
@@ -110,7 +110,7 @@
 			<div class="container">
 				<div class="section-heading text-center">
 					<h2>Specifiche Tecniche</h2>
-					<p class="lead color-2">-</p>
+				
 				</div>
 				<div class="row gap-y">
 					<div class="col-md-3">
