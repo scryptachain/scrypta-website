@@ -265,12 +265,12 @@ $(function() {
             step: 100,
             duration: 1000,
             elements: [
-                { label: "API Pubbliche", value: 40},
-                { label: "Nodi di interfacciamento", value: 20 },
-                { label: "Scrypta masternode bot", value: 50 },
+                { label: "RESTful Public API", value: 40},
+                { label: "IdA Node (Nodi di interfacciamento)", value: 20 },
                 { label: "Identity card", value: 20 },
-                { label: "Web wallet", value: 10 },
-                { label: "Piattaforma Scrypta per i masternode", value: 60}
+                { label: "Light Wallet", value: 10 },
+                { label: "Whitepapert", value: 65 },
+                { label: "Piattaforma Sviluppo Scrypta Masternode", value: 70}
             ]
         });
     })();

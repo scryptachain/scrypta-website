@@ -73,7 +73,7 @@
 			<div class="container bring-to-front">
 				<div class="section-heading text-center">
 					<h2>Features</h2>
-					<p class="lead">L’algoritmo Quark di Scrypta prevede la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo Masternode/PoS (Proof of Stake).</p>
+					<p class="lead">L’algoritmo di Scrypta regola la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo Masternode/PoS (Proof of Stake).</p>
 				</div>
 				<div class="row align-items-center gap-y">
 					<div class="col-md-12 text-center text-md-left">

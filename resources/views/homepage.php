@@ -261,9 +261,9 @@
 				<div class="section-heading text-center">
 					<h2 class="bold">Sviluppare dApp con Scrypta</h2>
                     <p class="lead color-2">
-                        Scrypta ha sviluppato delle tecniche innovative di interfacciamento con la blockchain che permettono di ideare specifiche applicazioni utilizzando i linguaggi standard più diffusi di programmazione.<br><br>
+                        Scrypta ha ideato delle tecniche innovative di interfacciamento con la blockchain che permettono di sviluppare specifiche applicazioni, utilizzando i linguaggi standard più diffusi di programmazione.<br><br>
                         La natura decentralizzata del progetto Scrypta lo rende particolarmente adatto alle collaborazioni e ai contributi di quanti vorranno creare soluzioni pratiche basate sulla sua architettura.<br><br>
-						<a href="/documentazione" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Vai alla documentazione</a>
+						<a href="/documentazione" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">For developers</a>
                     </p>
 				</div>
 			</div>
@@ -329,8 +329,8 @@
 							<p class="color-2 small text-uppercase">i nostri prossimi traguardi</p>
 							<h2 class="bold">Roadmap</h2>
 						</div>
-						<p class="regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci, architecto asperiores dignissimos doloribus dolorum eos esse eum laborum minima molestias, natus nostrum odio quia recusandae rem sequi similique velit.</p>
-						<a href="https://roadmap.scryptachain.org/roadmaps" target="_blank" class="btn btn-outline-3 btn-rounded bw-2 mt-4">LEGGI ANCORA</a>
+						<p class="regular">Visita e interagisci con il nostro programma di lavoro. Scopri gli obbiettivi pianificati e i progressi raggiunti da Scrypta</p>
+						<a href="https://roadmap.scryptachain.org/roadmaps" target="_blank" class="btn btn-outline-3 btn-rounded bw-2 mt-4">ACCEDI</a>
 					</div>
 					<div class="col-md-6">
 						<div class="animate-bars">
