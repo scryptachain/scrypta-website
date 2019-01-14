@@ -12,48 +12,48 @@ trait HtmlParts{
 					<div class="row gap-y text-center text-md-left">
 						<div class="col-md-4 mr-auto">
 							<img src="/logo.png" alt="" class="logo">
-							<p>Dashcore, a carefully crafted and powerful HTML5 template, it\'s perfect to showcase your startup or software</p>
+							<p>Scryta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>Official e-mail: <strong>scryptachain@criptext.com</strong></p>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">Company</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="../about.html">About</a>
-								<a class="nav-item py-2" href="#">Services</a>
-								<a class="nav-item py-2" href="../blog/blog-grid.html">Blog</a>
+								<a class="nav-item py-2" href="#">Home</a>	
+								<a class="nav-item py-2" href="../about-scrypta">About</a>
+								<a class="nav-item py-2" href="https://roadmap.scryptachain.org/roadmaps"target="_blank">Roadmap</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
-							<h6 class="py-2 bold">Product</h6>
+							<h6 class="py-2 bold">Resources</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="#">Features</a>
-								<a class="nav-item py-2" href="#">API</a>
-								<a class="nav-item py-2" href="#">Customers</a>
+								<a class="nav-item py-2" href="../blockchain">Blockchain</a>
+								<a class="nav-item py-2" href="../sviluppatori">Portale Sviluppatori</a>
+								<a class="nav-item py-2" href="https://chainz.cryptoid.info/lyra/"target="_blank">Block Explorer</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
-							<h6 class="py-2 bold">Channels</h6>
+							<h6 class="py-2 bold">Download</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="#">Careers</a>
-								<a class="nav-item py-2" href="#">Contact</a>
-								<a class="nav-item py-2" href="#">Search</a>
+								<a class="nav-item py-2" href="../homepage#wallet">Wallet</a>
+								<a class="nav-item py-2" href="/light_paper.pdf"target="_blank">Light Paper</a>
+							
 							</nav>
 						</div>
 					</div>
 					<hr class="mt-5">
 					<div class="row small align-items-center">
 						<div class="col-md-4">
-							<p class="mt-2 mb-md-0 color-2 text-center text-md-left">© 2018 5studios. All Rights Reserved</p>
+							<p class="mt-2 mb-md-0 color-2 text-center text-md-left">© 2019, Scrypta Blockchain Technology. All Rights Reserved.</p>
 						</div>
 						<div class="col-md-8">
 							<nav class="nav justify-content-center justify-content-md-end">
 								<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
-									<i class="fab fa-facebook"></i>
-								</a>
-								<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
 									<i class="fab fa-twitter"></i>
 								</a>
+								<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+									<i class="fab fa-discord"></i>
+								</a>
 								<a href="#" class="btn btn-circle btn-sm btn-2 op-4">
-									<i class="fab fa-instagram"></i>
+									<i class="fab fa-medium"></i>
 								</a>
 							</nav>
 						</div>

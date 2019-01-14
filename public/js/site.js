@@ -157,7 +157,7 @@ $(function() {
      **/
     if ($(".typed").length) {
         var typed = new Typed('.typed', {
-            strings: ['Verifica identità', 'Integra con il web', 'Valida dati'],
+            strings: ['Verifica identità', 'Integra con il web', 'Crea database'],
             typeSpeed: 50,
             backDelay: 500,
             backSpeed: 50,
