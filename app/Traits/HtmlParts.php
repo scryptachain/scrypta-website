@@ -12,10 +12,10 @@ trait HtmlParts{
 					<div class="row gap-y text-center text-md-left">
 						<div class="col-md-4 mr-auto">
 							<img src="/logo.png" alt="" class="logo">
-							<p>Scryta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>Official e-mail: <strong>scryptachain@criptext.com</strong></p>
+							<p>Scryta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></p>
 						</div>
 						<div class="col-md-2">
-							<h6 class="py-2 bold">Company</h6>
+							<h6 class="py-2 bold">Progetto</h6>
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="#">Home</a>	
 								<a class="nav-item py-2" href="../about-scrypta">About</a>
@@ -23,7 +23,7 @@ trait HtmlParts{
 							</nav>
 						</div>
 						<div class="col-md-2">
-							<h6 class="py-2 bold">Resources</h6>
+							<h6 class="py-2 bold">Risorse</h6>
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="../blockchain">Blockchain</a>
 								<a class="nav-item py-2" href="../sviluppatori">Portale Sviluppatori</a>
@@ -46,14 +46,20 @@ trait HtmlParts{
 						</div>
 						<div class="col-md-8">
 							<nav class="nav justify-content-center justify-content-md-end">
-								<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
-									<i class="fab fa-twitter"></i>
+								<a href="https://twitter.com/scryptachain" target="_blank" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+									<i class="fab fa-twitter" style="font-size:20px"></i>
 								</a>
-								<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
-									<i class="fab fa-discord"></i>
+								<a href="https://discord.gg/mrVQvhB" target="_blank" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+									<i class="fab fa-discord" style="font-size:20px"></i>
 								</a>
-								<a href="#" class="btn btn-circle btn-sm btn-2 op-4">
-									<i class="fab fa-medium"></i>
+								<a href="https://medium.com/@scryptachain" target="_blank" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+									<i class="fab fa-medium" style="font-size:20px"></i>
+								</a>
+								<a href="https://t.me/scryptachain_official " target="_blank" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+									<i class="fab fa-telegram" style="font-size:20px"></i>
+								</a>
+								<a href="https://github.com/scryptachain" target="_blank" class="btn btn-circle btn-sm btn-2 op-4">
+									<i class="fab fa-github" style="font-size:20px"></i>
 								</a>
 							</nav>
 						</div>
