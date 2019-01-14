@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h1 class="regular display-4 color-1 mb-4">La Blockchain di Scrypta</h1>
-						<p class="lead color-1">Scrypta è una piattaforma distribuita che ha in sé il potenziale per ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi, rendendo i dati unici, immutabili, tracciabili e non falsificabili.</p>
+						<p class="lead color-1">Scrypta è una piattaforma distribuita che ha in sé il potenziale per ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi, rendendo i dati <strong>unici, immutabili, tracciabili</strong> e non falsificabili.</p>
 					</div>
 				</div>
 			</div>
@@ -25,10 +25,10 @@
 						<div class="section-heading">
 							<p class="badge badge-success bold">Blockchain Technology</p>
 							<h2>Distributed Ledger and P2P Network</h2>
-							<p class="lead color-2">La blockchain di Scrypta è composta da due elementi chiave: il database distribuito e una rete decentralizzata.
+							<p class="lead color-2">La blockchain di Scrypta è composta da due elementi chiave: il <strong>database distribuito</strong> e una <strong>rete decentralizzata</strong>.
 </p>
 						</div>
-						<p>Queste due entità costituiscono il “distributed ledger” sul quale si registrano informazioni e valori. Tutti coloro che fanno parte del network di Scrypta hanno una copia identica del registro, e qualsiasi cambiamento viene apportato si riflette immediatamente in tutte le copie disponibili.</p>
+						<p>Queste due entità costituiscono il "<strong>distributed ledger</strong>"" sul quale si registrano informazioni e valori. Tutti coloro che fanno parte del network di Scrypta hanno una copia identica del registro, e qualsiasi cambiamento viene apportato si riflette immediatamente in tutte le copie disponibili.</p>
 					</div>
 					<div class="col-lg-6">
 						<div class="row gap-y">
@@ -73,7 +73,7 @@
 			<div class="container bring-to-front">
 				<div class="section-heading text-center">
 					<h2>Features</h2>
-					<p class="lead">L’algoritmo di Scrypta regola la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo Masternode/PoS (Proof of Stake).</p>
+					<p class="lead">L’algoritmo di Scrypta regola la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo <strong>Masternode/PoS</strong> (Proof of Stake).</p>
 				</div>
 				<div class="row align-items-center gap-y">
 					<div class="col-md-12 text-center text-md-left">
@@ -82,7 +82,7 @@
 								<i class="pe pe-3x pe-7s-share accent icon-lg mr-3 text-lg-right"></i>
 								<div class="media-body mt-3 mt-lg-0 text-center text-md-left">
 									<h5 class="bold color-5">Masternode</h5>
-									<p class="mt-0 mb-5">Un masternode è un server, online 24 ore su 24, 7 giorni su 7, che opera come super validatore. Per incentivare il loro funzionamento, i masternode ricevono ricompense in LYRA. Questo può essere inteso come un reddito passivo calcolabile e particolarmente prevedibile. Operare come validatore masternode richiede la proprietà di 15000 LYRA.
+									<p class="mt-0 mb-5">Un masternode è un server, online 24 ore su 24, 7 giorni su 7, che opera come <strong>super validatore</strong>. Per incentivare il loro funzionamento, i masternode ricevono ricompense in LYRA. Questo può essere inteso come un reddito passivo calcolabile e particolarmente prevedibile. Operare come validatore masternode richiede la proprietà di <strong>15000 LYRA</strong>.
 </p>
 								</div>
 							</li>
@@ -90,7 +90,7 @@
 								<i class="pe pe-3x pe-7s-keypad accent icon-lg mr-3 text-lg-right"></i>
 								<div class="media-body mt-3 mt-lg-0 text-center text-md-left">
 									<h5 class="bold color-5">Staking</h5>
-									<p class="mt-0 mb-5">Con il Proof of Stake, il creatore di un nuovo blocco viene scelto in modo deterministico a seconda della sua ‘ricchezza’, definita come ‘stake’. L'algoritmo di consenso di Scrypta seleziona un validatore ogni 60 secondi, gli assegna le spettanti ricompense e gli conferisce il diritto di creare un singolo blocco.  In altre parole, significa che i “portafogli digitali” aperti alla rete, coniano nuove monete generando un reddito passivo.</p>
+									<p class="mt-0 mb-5">Con il <strong>Proof of Stake</strong>, il creatore di un nuovo blocco viene scelto in modo deterministico a seconda della sua ‘ricchezza’, definita come ‘stake’. L'algoritmo di consenso di Scrypta seleziona un validatore ogni 60 secondi, gli assegna le spettanti ricompense e gli conferisce il diritto di creare un singolo blocco.  In altre parole, significa che i “portafogli digitali” aperti alla rete, coniano <strong>nuove monete</strong> generando un reddito passivo.</p>
 								</div>
 							</li>
 							<li class="media d-block d-lg-flex">

@@ -13,9 +13,9 @@
 				<div class="row">
 					<div class="col-md-7">
 						<h1 class="color-1 bold">Scrypta Blockchain
-							<span class="d-block light">Infrastruttura di archiviazione e certificazione</span>
+							<span class="d-block light">Archiviazione e Certificazione</span>
 						</h1>
-						<p class="lead">Scrypta è una piattaforma digitale decentralizzata che permette di semplificare e rendere più efficienti i processi di gestione, archiviazione e certificazione che caratterizzano i settori economici, produttivi e sociali. Il suo sistema flessibile permette la creazione di architetture complete a servizio di progetti illimitati e nuovi casi d’uso.</p>
+						<p class="lead">Scrypta è un'infrastruttura digitale decentralizzata che permette di semplificare e rendere più efficienti i processi di gestione, archiviazione e certificazione che caratterizzano i settori economici, produttivi e sociali. Il suo sistema flessibile permette la creazione di architetture complete a servizio di progetti illimitati e nuovi casi d’uso.</p>
 						<nav class="nav mt-5">
 							<a href="/light_paper.pdf" target="_blank" class="nav-link mr-3 btn btn btn-rounded btn-1">
 								<i class="fas fa-tag mr-3"></i> Scarica il Light Paper</a>
@@ -177,7 +177,7 @@
 						</div>
 						<h2 class="bold text-capitalize">La Blockchain di Scrypta</h2>
 						<p class="regular">
-						Sviluppato su protocollo open source con licenza MIT (Massachusetts Institute of Technology), Scrypta è un sistema blockchain  che si basa su scambi e transazioni mediati dalla propria valuta digitale Lyra. Il suo sistema di funzionamento permette di svolgere funzioni legate all’inserimento dei dati all’interno della blockchain, aprendosi a infinite possibilità e nuovi casi di applicazione.
+						Sviluppato su protocollo <strong>open-source</strong> con licenza MIT (Massachusetts Institute of Technology), Scrypta è un sistema blockchain  che si basa su scambi e transazioni mediati dalla propria valuta digitale <strong>Lyra</strong>. Il suo sistema di funzionamento permette di svolgere funzioni legate all’inserimento dei dati all’interno della blockchain, aprendosi a infinite possibilità e nuovi casi di applicazione.
                         </p>
 						<a href="/blockchain" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Esplora</a>
 					</div>
@@ -211,7 +211,7 @@
 							</div>
 						</div>
 						<h2 class="bold text-capitalize">Il wallet di Scrypta</h2>
-						<p class="regular">Il Client di Scrypta ti permette di avere il controllo della  valuta digitale Lyra in completa sicurezza. Raccomandiamo l'uso del Wallet ufficiale che ha funzioni di memorizzazione per le chiavi private dei tuoi indirizzi. Il Lyra Wallet è come il tuo conto bancario, quindi prendi precauzioni aggiuntive con le tue password e assicurati di eseguire backup regolari. Scarica il Client adatto al tuo sistema operativo:</p>
+						<p class="regular">Il Client di Scrypta ti permette di avere il controllo della  valuta digitale <strong>Lyra</strong> in completa sicurezza. Raccomandiamo l'uso del Wallet ufficiale che ha funzioni di memorizzazione per le chiavi private dei tuoi indirizzi. Il <strong>Lyra Wallet</strong> è come il tuo conto bancario, quindi prendi precauzioni aggiuntive con le tue password e assicurati di eseguire backup regolari. Scarica il Client adatto al tuo sistema operativo:</p>
 						<a href="/wallet/lyra-1.0.0-macOS.dmg" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Mac</a>
 						<a href="/wallet/lyra-1.0.0-win32-64.zip" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Windows</a>
 						<a href="/wallet/lyra-1.0.0-x86_64-linux-gnu.tar.gz" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Linux</a>
@@ -246,7 +246,7 @@
 							</div>
 						</div>
 						<h2 class="bold text-capitalize">Task Force, Foundation & Consortium</h2>
-						<p class="regular">Le organizzazioni che promuovono e partecipano allo sviluppo del Progetto, con la missione comune di favorire e sperimentare nuove prospettive tecnologiche basate sul linguaggio open-source di Scrypta.</p>
+						<p class="regular">Le Organizzazioni che promuovono e partecipano allo sviluppo del Progetto, con la missione comune di favorire e sperimentare nuove prospettive tecnologiche basate sul linguaggio open-source di Scrypta.</p>
 						<a href="/about-scrypta" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Approfondisci</a>
 					</div>
 				</div>
@@ -261,7 +261,7 @@
 				<div class="section-heading text-center">
 					<h2 class="bold">Sviluppare dApp con Scrypta</h2>
                     <p class="lead color-2">
-                        Scrypta ha ideato delle tecniche innovative di interfacciamento con la blockchain che permettono di sviluppare specifiche applicazioni, utilizzando i linguaggi standard più diffusi di programmazione.<br><br>
+                        Scrypta ha ideato delle tecniche innovative di interfacciamento con la blockchain che permettono di sviluppare specifiche applicazioni, utilizzando i <strong>linguaggi standard</strong> più diffusi di programmazione.<br><br>
                         La natura decentralizzata del progetto Scrypta lo rende particolarmente adatto alle collaborazioni e ai contributi di quanti vorranno creare soluzioni pratiche basate sulla sua architettura.<br><br>
 						<a href="/documentazione" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">For developers</a>
                     </p>
@@ -329,7 +329,7 @@
 							<p class="color-2 small text-uppercase">i nostri prossimi traguardi</p>
 							<h2 class="bold">Roadmap</h2>
 						</div>
-						<p class="regular">Visita e interagisci con il nostro programma di lavoro. Scopri gli obbiettivi pianificati e i progressi raggiunti da Scrypta</p>
+						<p class="regular">Visita e interagisci con il nostro programma di lavoro. Scopri gli obbiettivi pianificati e i progressi raggiunti da Scrypta:</p>
 						<a href="https://roadmap.scryptachain.org/roadmaps" target="_blank" class="btn btn-outline-3 btn-rounded bw-2 mt-4">ACCEDI</a>
 					</div>
 					<div class="col-md-6">
