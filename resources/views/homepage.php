@@ -281,31 +281,31 @@
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/get.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/sup.svg)">
 							<h3>Tracciamento filiera produttiva</h3>
 							<p class="color-2 mb-0">La nostra proposta tecnologica ha il potenziale per consentire non solo ai produttori, ma anche ai loro clienti, di entrare in un innovativo capitolo della tracciabilità nella catena di fornitura.</p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/get.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/iot.svg)">
 							<h3>Industrial IoT</h3>
 							<p class="color-2 mb-0">La Blockchain di Scrypta si candida al ruolo di applicazione chiave per l'Industrial IoT (Internet of Things). Può essere utilizzata infatti per tracciare miriadi di dispositivi collegati, consentendo l’elaborazione delle transazioni di dati che questi producono e il coordinamento tra i device fisici.</p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/get.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/legal.svg)">
 							<h3>Copyright e certificazioni</h3>
 							<p class="color-2 mb-0">Grazie alla blockchain di Scrypta è possibile l’inserimento di documenti come prove a sostegno durante diatribe legali che dimostrino inequivocabilmente la proprietà di un’opera o documento.</p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/get.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/healt.svg)">
 							<h3>Sanità e ricerca</h3>
 							<p class="color-2 mb-0">La tecnologia blockchain di Scrypta può migliorare le procedure di controllo e i meccanismi operativi delle strutture ospedaliere. E può portare importantissime efficienze a livello di gestione documentale sicura e analisi dei dati ai fini della ricerca scientifica.</p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/get.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/pa.svg)">
 							<h3>Pubblica amministrazione</h3>
 							<p class="color-2 mb-0">L’ architettura di Scrypta può cambiare radicalmente il sistema di relazione tra i cittadini e la PA in ragione di una logica decentralizzata e distribuita che porta a una maggiore trasparenza, a una maggiore sicurezza e accessibilità.</p>
 						</div>
