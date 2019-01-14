@@ -12,7 +12,23 @@ trait HtmlParts{
 				<div class="container py-4">
 					<div class="row align-items-center">
 						<div class="col-md-12 text-center">
-							<img src="/logo.png" height="25">
+							<a href="https://github.com/scryptachain" target="_blank">
+								<i style="font-size:25px" class="color-2 fab fa-github"></i>
+							</a>
+							<a href="https://twitter.com/scryptachain" target="_blank">
+								<i style="font-size:25px" class="color-2 fab fa-twitter"></i>
+							</a>
+							<a href="https://medium.com/@scryptachain" target="_blank">
+								<i style="font-size:25px" class="color-2 fab fa-medium"></i>
+							</a>
+							<a href="https://t.me/scryptachain_official" target="_blank">
+								<i style="font-size:25px" class="color-2 fab fa-telegram"></i>
+							</a>
+							<a href="https://discord.gg/mrVQvhB" target="_blank">
+								<i style="font-size:25px" class="color-2 fab fa-discord"></i>
+							</a>
+							<br>
+							<a href="mailto:scryptachain@criptext.com">scryptachain@criptext.com</a><br>
 							<p class="mt-2 mb-0 color-2 small">© '.date('Y').' Scrypta Project.</p>
 						</div>
 					</div>
@@ -119,38 +135,33 @@ trait HtmlParts{
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a href="#main" class="navbar-brand">
+						<a href="/homepage" class="navbar-brand">
 							<img src="/logo.png" alt="ScryptaChain" height="35" class="logo logo-sticky d-block d-md-none">
 							<img src="/logo.png" alt="ScryptaChain" height="35" class="logo d-none d-md-block">
 						</a>
 						<div class="collapse navbar-collapse ml-auto" id="main-navbar">
-							<div class="sidebar-brand">
-								<a href="/">
-									<img src="img/logo.png" alt="ScryptaChain Template" class="logo">
-								</a>
-							</div>
 							<ul class="nav navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="/">Home</a>
-								</li>
-								<li class="nav-item">
 									<a class="nav-link" href="/blockchain">Blockchain</a>
-								</li><!--
+								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="/documentazione">Sviluppatori</a>
 								</li>
-								<li class="nav-item">
+								<!--<li class="nav-item">
 									<a class="nav-link" href="/sostieni-il-progetto">Sostieni il progetto</a>
 								</li>-->
 								<li class="nav-item">
 									<a class="nav-link" target="_blank" href="https://chainz.cryptoid.info/lyra/">Explorer</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#wallet">Wallet</a>
+									<a class="nav-link" target="_blank" href="https://roadmap.scryptachain.org/roadmaps">Roadmap</a>
 								</li>
 								<li class="nav-item">
+									<a class="nav-link" href="/homepage#wallet">Wallet</a>
+								</li><!--
+								<li class="nav-item">
 									<a class="nav-link" href="/contatti">Contatti</a>
-								</li>
+								</li>-->
 							</ul>
 							<nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
 								<a class="btn btn-rounded btn-outline mr-3 px-3" href="https://github.com/scryptachain" target="_blank">

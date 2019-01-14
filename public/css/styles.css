@@ -7570,8 +7570,8 @@ main {
         background: transparent; }
       .navigation .nav-link {
         color: #41494f;
-        padding-left: 1.25rem !important;
-        padding-right: 1.25rem !important; }
+        padding-left: 1rem !important;
+        padding-right: 1rem !important; }
         .navigation .nav-link i {
           display: none; }
         .navigation .nav-link.active, .navigation .nav-link:hover {

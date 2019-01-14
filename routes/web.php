@@ -16,7 +16,9 @@ use Illuminate\Http\Request;
 $router->get('/',"WebController@load");
 $router->get('/genesis',"WebController@genesis");
 $router->get('/homepage',"WebController@homepage");
-$router->get('/contatti',"WebController@contatti");
+$router->get('/blockchain',"WebController@blockchain");
+$router->get('/about-scrypta',"WebController@about");
+$router->get('/documentazione',"WebController@documentazione");
 $router->post('/registersell',"WebController@register");
 
 $router->get('/bot/get-me', 'TelegramController@getMe');

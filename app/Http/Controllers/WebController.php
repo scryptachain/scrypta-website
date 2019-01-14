@@ -30,6 +30,18 @@ class WebController extends Controller{
     function contatti(){
         return view('contatti', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
     }
+    function blockchain(){
+        return view('blockchain', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+    }
+    function sostieni(){
+        return view('sostieni', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+    }
+    function documentazione(){
+        return view('documentazione', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+    }
+    function about(){
+        return view('about', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+    }
     function genesis(){
         return view('genesis', ['header' => $this->header(), 'footer' => $this->footer(), 'menu' => $this->menu()]);
     }
