@@ -1,0 +1,25 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It is a breeze. Simply tell Lumen the URIs it should respond to
+| and give it the Closure to call when that URI is requested.
+|
+*/
+use Illuminate\Http\Response;
+use Illuminate\Http\Request;
+
+$router->get('/',"WebController@load");
+$router->get('/genesis',"WebController@genesis");
+$router->get('/homepage',"WebController@homepage");
+$router->get('/contatti',"WebController@contatti");
+$router->post('/registersell',"WebController@register");
+
+$router->get('/bot/get-me', 'TelegramController@getMe');
+$router->get('/bot/set-hook', 'TelegramController@setWebHook');
+$router->get('/bot/check-api', 'TelegramController@hubApi');
+$router->post(env('TELEGRAM_BOT_TOKEN') . '/webhook', 'TelegramController@handleRequest');
