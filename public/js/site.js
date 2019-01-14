@@ -269,7 +269,7 @@ $(function() {
                 { label: "IdA Node (Nodi di interfacciamento)", value: 20 },
                 { label: "Identity card", value: 20 },
                 { label: "Light Wallet", value: 10 },
-                { label: "Whitepapert", value: 65 },
+                { label: "Whitepaper", value: 65 },
                 { label: "Piattaforma Sviluppo Scrypta Masternode", value: 70}
             ]
         });
