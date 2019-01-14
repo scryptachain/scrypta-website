@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h1 class="regular display-4 color-1 mb-4">L'Assetto di Scrypta</h1>
-						<p class="lead color-1">Le organizzazioni che promuovono e partecipano allo sviluppo del Progetto, con la missione comune di favorire e sperimentare nuove prospettive tecnologiche basate sul linguaggio open-source offerto da Scrypta.</p>
+						<p class="lead color-1">Le Organizzazioni che promuovono e partecipano allo sviluppo del Progetto, con la missione comune di favorire e sperimentare nuove prospettive tecnologiche basate sul linguaggio open-source offerto da Scrypta.</p>
 					</div>
 				</div>
 			</div>
