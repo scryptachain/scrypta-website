@@ -275,7 +275,7 @@
                         <h2 class="bold">I Casi d'Uso di Scrypta</h2>
                     </div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/send.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/digi.svg)">
 							<h3>Identità Digitale</h3>
 							<p class="color-2 mb-0">Usare la tecnologia blockchain per costruire e implementare soluzioni di identità digitale, riduce i costi e le frodi, e aumenta la trasparenza e l'efficienza. I dati blockchain di Scrypta sono immutabili ed è impossibile modificarli fraudolentemente.</p>
 						</div>
