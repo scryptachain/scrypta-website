@@ -20,7 +20,7 @@ class TelegramController extends Controller{
      */
     public function __construct()
     {
-        $this->telegram = new Api(env('746245688:AAEnUMlM5dQZYwLZcza2T9TzsGt7fI-H9RQ'));
+        $this->telegram = new Api(env('TELEGRAM_BOT_TOKEN'));
     }
 
     function getMe(){

@@ -157,8 +157,8 @@ $(function() {
      **/
     if ($(".typed").length) {
         var typed = new Typed('.typed', {
-            strings: ['Invoicing', 'Subscriptions', 'Mailing', 'Reporting'],
-            typeSpeed: 150,
+            strings: ['Verifica identità', 'Integra con il web', 'Valida dati'],
+            typeSpeed: 50,
             backDelay: 500,
             backSpeed: 50,
             loop: true
