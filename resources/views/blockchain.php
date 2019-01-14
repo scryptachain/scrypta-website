@@ -73,7 +73,7 @@
 			<div class="container bring-to-front">
 				<div class="section-heading text-center">
 					<h2>Features</h2>
-					<p class="lead">L’algoritmo di Scrypta regola la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo <strong>Masternode/PoS</strong> (Proof of Stake).</p>
+					<p class="lead">L’algoritmo di Scrypta regola la generazione di nuove Lyra ad ogni blocco. Queste vengono assegnate come ricompense ai membri del Network attraverso un protocollo di consenso di tipo <strong>Masternode/PoS</strong>.</p>
 				</div>
 				<div class="row align-items-center gap-y">
 					<div class="col-md-12 text-center text-md-left">
@@ -110,7 +110,7 @@
 			<div class="container">
 				<div class="section-heading text-center">
 					<h2>Specifiche Tecniche</h2>
-					<p class="lead color-2">-</p>
+				
 				</div>
 				<div class="row gap-y">
 					<div class="col-md-3">
@@ -188,14 +188,21 @@
 			</div>
 		</section>
 		<!-- ./Customers -->
-		<section class="section bg-1 edge bottom-right">
-			<div class="container">
-				<div class="section-heading text-center">
-					<h2>Scrypta Block Explorer</h2>
-					<p class="color-2 lead">Lo strumento chiave per esplorare i blocchi e la loro estrazione, ottenere informazioni su indirizzi e transazioni e conoscere lo stato della Blockchain di Scrypta.</p>
-				</div>
-				<div class="text-center mt-2">
-					<a href="https://chainz.cryptoid.info/lyra/" target="_blank" class="btn btn-rounded btn-accent">Entra</a>
+
+		<section class="section gradient overlay gradient-43 image-background cover color-1 block bg-1" style="background-image: url(https://picsum.photos/350/200/?random&gravity=south)">
+			<div class="container py-5 py-4">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<h2>Scrypta Block
+							<span class="bold">Explorer</span>
+						</h2>
+						<p class="op-6">
+						Lo strumento chiave per esplorare i blocchi e la loro estrazione, ottenere informazioni su indirizzi e transazioni e conoscere lo stato della Blockchain di Scrypta.
+						</p>
+					</div>
+					<div class="col-md-4 ml-md-auto">
+						<a href="https://chainz.cryptoid.info/lyra/" target="_blank" class="btn btn-1 ml-3">Entra</a>
+					</div>
 				</div>
 			</div>
 		</section>

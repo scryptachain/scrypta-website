@@ -253,21 +253,19 @@
 			</div>
         </section>
         
-
-
-		<!-- Big Screen - Customer Management -->
-		<section class="section">
-			<div class="container pt-5">
-				<div class="section-heading text-center">
-					<h2 class="bold">Sviluppare dApp con Scrypta</h2>
-                    <p class="lead color-2">
-                        Scrypta ha ideato delle tecniche innovative di interfacciamento con la blockchain che permettono di sviluppare specifiche applicazioni, utilizzando i <strong>linguaggi standard</strong> più diffusi di programmazione.<br><br>
-                        La natura decentralizzata del progetto Scrypta lo rende particolarmente adatto alle collaborazioni e ai contributi di quanti vorranno creare soluzioni pratiche basate sulla sua architettura.<br><br>
-						<a href="/sviluppatori" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">For developers</a>
-                    </p>
+		
+		<section class="section block bg-1 mt-3n mb-6">
+			<div class="container bring-to-front py-4">
+				<div class="shadow rounded text-center bg-4-gradient color-1 p-5">
+					<h2 class="mb-5">Sviluppare dApp con Scrypta</h2>
+					<p>
+					Scrypta ha ideato delle tecniche innovative di interfacciamento con la blockchain che permettono di sviluppare specifiche applicazioni, utilizzando i <strong>linguaggi standard</strong> più diffusi di programmazione.<br><br>
+                        La natura decentralizzata del progetto Scrypta lo rende particolarmente adatto alle collaborazioni e ai contributi di quanti vorranno creare soluzioni pratiche basate sulla sua architettura.
+					</p>
+					<a href="/sviluppatori" class="btn btn-5 btn-rounded mt-4">Portale sviluppatori</a>
 				</div>
 			</div>
-        </section>
+		</section>
 
 
 		<!-- ./Features - hover animated -->

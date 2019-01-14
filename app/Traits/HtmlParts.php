@@ -7,29 +7,55 @@ namespace App\Traits;
 trait HtmlParts{
 	function footerpublic(){
 		return '
-			<!-- ./Footer - Simple -->
-			<footer class="site-footer section block bg-1">
+				<footer class="site-footer section block bg-1">
 				<div class="container py-4">
-					<div class="row align-items-center">
-						<div class="col-md-12 text-center">
-							<a href="https://github.com/scryptachain" target="_blank">
-								<i style="font-size:25px" class="color-2 fab fa-github"></i>
-							</a>
-							<a href="https://twitter.com/scryptachain" target="_blank">
-								<i style="font-size:25px" class="color-2 fab fa-twitter"></i>
-							</a>
-							<a href="https://medium.com/@scryptachain" target="_blank">
-								<i style="font-size:25px" class="color-2 fab fa-medium"></i>
-							</a>
-							<a href="https://t.me/scryptachain_official" target="_blank">
-								<i style="font-size:25px" class="color-2 fab fa-telegram"></i>
-							</a>
-							<a href="https://discord.gg/mrVQvhB" target="_blank">
-								<i style="font-size:25px" class="color-2 fab fa-discord"></i>
-							</a>
-							<br>
-							<a href="mailto:scryptachain@criptext.com">scryptachain@criptext.com</a><br>
-							<p class="mt-2 mb-0 color-2 small">© '.date('Y').' Scrypta Project.</p>
+					<div class="row gap-y text-center text-md-left">
+						<div class="col-md-4 mr-auto">
+							<img src="/logo.png" alt="" class="logo">
+							<p>Dashcore, a carefully crafted and powerful HTML5 template, it\'s perfect to showcase your startup or software</p>
+						</div>
+						<div class="col-md-2">
+							<h6 class="py-2 bold">Company</h6>
+							<nav class="nav flex-column">
+								<a class="nav-item py-2" href="../about.html">About</a>
+								<a class="nav-item py-2" href="#">Services</a>
+								<a class="nav-item py-2" href="../blog/blog-grid.html">Blog</a>
+							</nav>
+						</div>
+						<div class="col-md-2">
+							<h6 class="py-2 bold">Product</h6>
+							<nav class="nav flex-column">
+								<a class="nav-item py-2" href="#">Features</a>
+								<a class="nav-item py-2" href="#">API</a>
+								<a class="nav-item py-2" href="#">Customers</a>
+							</nav>
+						</div>
+						<div class="col-md-2">
+							<h6 class="py-2 bold">Channels</h6>
+							<nav class="nav flex-column">
+								<a class="nav-item py-2" href="#">Careers</a>
+								<a class="nav-item py-2" href="#">Contact</a>
+								<a class="nav-item py-2" href="#">Search</a>
+							</nav>
+						</div>
+					</div>
+					<hr class="mt-5">
+					<div class="row small align-items-center">
+						<div class="col-md-4">
+							<p class="mt-2 mb-md-0 color-2 text-center text-md-left">© 2018 5studios. All Rights Reserved</p>
+						</div>
+						<div class="col-md-8">
+							<nav class="nav justify-content-center justify-content-md-end">
+								<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+									<i class="fab fa-facebook"></i>
+								</a>
+								<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" class="btn btn-circle btn-sm btn-2 op-4">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</nav>
 						</div>
 					</div>
 				</div>
