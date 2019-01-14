@@ -263,7 +263,7 @@
                     <p class="lead color-2">
                         Scrypta ha ideato delle tecniche innovative di interfacciamento con la blockchain che permettono di sviluppare specifiche applicazioni, utilizzando i <strong>linguaggi standard</strong> più diffusi di programmazione.<br><br>
                         La natura decentralizzata del progetto Scrypta lo rende particolarmente adatto alle collaborazioni e ai contributi di quanti vorranno creare soluzioni pratiche basate sulla sua architettura.<br><br>
-						<a href="/documentazione" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">For developers</a>
+						<a href="/sviluppatori" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">For developers</a>
                     </p>
 				</div>
 			</div>
