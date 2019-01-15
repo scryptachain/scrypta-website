@@ -26,7 +26,7 @@
 							<a href="javascript:void(0)" class="mt-4 color-5">
 								<h4 class="mr-3">Task Force</h4>
 							</a>
-							<p class="mt-4">Formata da 5 membri, tra cui gli ideatori del progetto Scrypta e il Core Development Team, nei sei mesi precedenti la genesi hanno portato a termine i seguenti obiettivi:</p>
+							<p class="mt-4">Un gruppo formato dagli ideatori del progetto Scrypta e il Core Development Team, nei sei mesi precedenti la genesi hanno portato a termine i seguenti obiettivi:</p>
 							<ul class="text-left">
 								<li>
 								Standardizzare i protocolli di rete e le API sull’ algoritmo QUARK di Scrypta, al fine di costruire la pietra angolare di un ecosistema condiviso, potenzialmente infinito e perfettamente scalabile.

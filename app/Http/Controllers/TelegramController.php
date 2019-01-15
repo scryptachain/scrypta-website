@@ -92,6 +92,9 @@ class TelegramController extends Controller{
             case '/help':
                 $this->help();
             break;
+            case '/reward':
+                $this->help();
+            break;
             case '/logout':
                 $this->logout();
             break;
@@ -115,10 +118,12 @@ class TelegramController extends Controller{
                 $this->masternodes = array();
                 $this->stats = array();
                 foreach($masternodes as $masternode){
-                    array_push($searchMN,'/'.$masternode['masternodeName']);
-                    array_push($searchAddresses,'/'.$masternode['coin_address']);
-                    $this->masternodes['/'.$masternode['masternodeName']] = $masternode;
-                    $this->stats['/'.$masternode['coin_address']] = $masternode;
+                    if($masternode['coin'] == 'LYRA'){
+                        array_push($searchMN,'/'.$masternode['masternodeName']);
+                        array_push($searchAddresses,'/'.$masternode['coin_address']);
+                        $this->masternodes['/'.$masternode['masternodeName']] = $masternode;
+                        $this->stats['/'.$masternode['coin_address']] = $masternode;
+                    }
                 }
                 if(in_array($this->text,$searchMN)){
                     $this->details($this->text);
@@ -159,9 +164,11 @@ class TelegramController extends Controller{
         if(isset($check['_id'])){
             $api_key = $check['api_key'];
             $masternodes = $this->hubApi('masternodes/list');
-            $response = 'Scegli uno dei ' .count($masternodes). ' masternode: ' . chr(10);
+            $response = 'Scegli uno dei masternode: ' . chr(10);
             foreach($masternodes as $masternode){
-                $response .= '/'.$masternode['masternodeName'].chr(10);
+                if($masternode['coin'] == 'LYRA'){
+                    $response .= '/'.$masternode['masternodeName'].chr(10);
+                }
             }
             $this->sendMessage($response);
         }else{
@@ -186,7 +193,6 @@ class TelegramController extends Controller{
 
             $response = "Si chiama ".$masternode['masternodeName'] . chr(10);
             $response .= "L'indirizzo è /".$masternode['coin_address'] . chr(10);
-            $response .= "La blockchain è ".$masternode['coin'] . chr(10);
             $response .= "Indirizzo IP ".$masternode['masternodeIP'] . chr(10);
             $response .= "E' stato visto l'ultima volta ".$masternode['last_seen'] . chr(10);
             $response .= "Il suo stato è ".$masternode['last_status'] . chr(10);
@@ -221,6 +227,10 @@ class TelegramController extends Controller{
         
     }
 
+    public function rewards(){
+
+    }
+
     public function logout()
     {
         
@@ -245,7 +255,6 @@ class TelegramController extends Controller{
         $message .= '/start' . chr(10);
         $message .= '/masternodes' . chr(10);
         $message .= '/rewards' . chr(10);
-        //$message .= '/preleva' . chr(10);
         $message .= '/logout' . chr(10);
         
         $this->sendMessage($message);
@@ -256,7 +265,11 @@ class TelegramController extends Controller{
     {
 
         if($this->user !== null){
-            $keyboard = array(array("/masternodes","/rewards","/logout"));
+            $keyboard = array();
+            foreach ($this->masternodes as $address => $mn){
+                array_push($keyboard,"/".$mn['masternodeName']);
+            }
+            $keyboard = array($keyboard,array("/rewards"));
         }else{
             $keyboard = array(array("/start"));
         }
