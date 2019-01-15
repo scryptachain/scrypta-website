@@ -12,7 +12,7 @@ trait HtmlParts{
 					<div class="row gap-y text-center text-md-left">
 						<div class="col-md-4 mr-auto">
 							<img src="/logo.png" alt="" class="logo">
-							<p>Scryta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></p>
+							<p>Scryta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></a></p>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">Progetto</h6>
