@@ -25,7 +25,7 @@
 							<a href="javascript:void(0)" class="color-5">
 								<h4 class="bold mr-3">RESTful API</h4>
 							</a>
-							<p class="mt-4">Le API che permettono tecniche innovative di <strong>interfacciamento con la blockchain</strong>. Gli sviluppatori possono così ideare specifiche applicazioni decentralizzate utilizzando i <strong>linguaggi standard</strong> di programmazione per il web</p>
+							<p class="mt-4">Le API che permettono tecniche innovative di <strong>interfacciamento con la blockchain</strong>. Gli sviluppatori possono così ideare specifiche applicazioni decentralizzate utilizzando i <strong>linguaggi standard</strong> di programmazione per il web.</p>
 							
 						</div>
 						<div class="col-md-4 py-4 px-5 d-flex flex-column b-md-r">
