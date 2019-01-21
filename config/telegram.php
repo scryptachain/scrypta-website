@@ -54,7 +54,7 @@ return [
     | your default bot for regular use.
     |
     */
-    'default'                      => 'scryptachain_bot',
+    'default'                      => 'scrypta_bot',
     /*
     |--------------------------------------------------------------------------
     | Asynchronous Requests [Optional]

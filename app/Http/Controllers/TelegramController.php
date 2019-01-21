@@ -35,7 +35,7 @@ class TelegramController extends Controller{
             $fields = $params;
         }else{
             $fields = array(
-                'apiKey' => urlencode($this->user['api_key'] ?? 'trJ3tqbFlfHoWKed5PGMX6CVo5usnGGuq6nBrg==')
+                'apiKey' => urlencode($this->user['api_key'])
             );
         }
         //$this->sendMessage(json_encode($fields));
@@ -71,7 +71,6 @@ class TelegramController extends Controller{
     public function handleRequest(Request $request)
     {
         $this->chat_id = $request['message']['chat']['id'];
-        $this->username = $request['message']['from']['username'];
         $this->text = $request['message']['text'];
         $check = app("db")->table("users")->where('chat_id',$this->chat_id)->first();
         
@@ -81,6 +80,25 @@ class TelegramController extends Controller{
             $this->user = null;
         }
         // app("db")->table("log")->insert(["chat_id" => $this->chat_id, "username" => $this->username, "text" => $this->text]);
+        if($this->user !== null && isset($this->user['api_key'])){
+            $masternodes = $this->hubApi('masternodes/list');
+            $searchMN=array();
+            $searchAddresses=array();
+            $this->masternodes = array();
+            $this->stats = array();
+            if(count($masternodes) > 0){
+                foreach($masternodes as $masternode){
+                    if($masternode['coin'] == 'LYRA'){
+                        array_push($searchMN,'/'.$masternode['masternodeName']);
+                        array_push($searchAddresses,'/'.$masternode['coin_address']);
+                        $this->masternodes['/'.$masternode['masternodeName']] = $masternode;
+                        $this->stats['/'.$masternode['coin_address']] = $masternode;
+                    }
+                }
+            }
+        }
+
+        app("db")->table("users")->where("chat_id",$this->chat_id)->update(["last_call" => $this->text]);
 
         switch ($this->text) {
             case '/start':
@@ -92,8 +110,8 @@ class TelegramController extends Controller{
             case '/help':
                 $this->help();
             break;
-            case '/reward':
-                $this->help();
+            case '/rewards':
+                $this->rewards();
             break;
             case '/logout':
                 $this->logout();
@@ -101,38 +119,25 @@ class TelegramController extends Controller{
 
             default: 
                 $understood = 'NO';
-                if (filter_var($this->text, FILTER_VALIDATE_EMAIL)) {
-                    if($this->user !== null && !isset($this->user['email'])){
-                        $this->sendMessage('La tua e-mail è '.$this->text.'!');
-                        app("db")->table("users")->where("chat_id",$this->chat_id)->update(["email" => $this->text]);
-                    }elseif($this->user == null){
-                        $this->sendMessage('Devi prima loggarti! Vai su /start');
-                    }elseif(isset($this->user['email'])){
-                        $this->sendMessage('Hai già configurato il tuo account, per fare il logout vai su /logout');
-                    }
-                    $understood = 'YES';
-                }
-                $masternodes = $this->hubApi('masternodes/list');
-                $searchMN=array();
-                $searchAddresses=array();
-                $this->masternodes = array();
-                $this->stats = array();
-                foreach($masternodes as $masternode){
-                    if($masternode['coin'] == 'LYRA'){
-                        array_push($searchMN,'/'.$masternode['masternodeName']);
-                        array_push($searchAddresses,'/'.$masternode['coin_address']);
-                        $this->masternodes['/'.$masternode['masternodeName']] = $masternode;
-                        $this->stats['/'.$masternode['coin_address']] = $masternode;
-                    }
-                }
-                if(in_array($this->text,$searchMN)){
-                    $this->details($this->text);
+                
+                if (strpos($this->text, '@') !== false) {
+                    $apiKey = explode('@',$this->text);
+                    app("db")->table("users")->where("chat_id",$this->chat_id)->update(["debug" => array("log" =>"updated", "timestamp" => strtotime("now"))]);
+                    app("db")->table("users")->where("chat_id",$this->chat_id)->update(["api_key" => $apiKey[1]]);
+                    $this->sendMessage('Ok siamo pronti!');
                     $understood = 'YES';
                 }
 
-                if(in_array($this->text,$searchAddresses)){
-                    $this->stats($this->text);
-                    $understood = 'YES';
+                if(isset($searchMN) && count($searchMN) > 0){
+                    if(in_array($this->text,$searchMN)){
+                        $this->details($this->text);
+                        $understood = 'YES';
+                    }
+
+                    if(in_array($this->text,$searchAddresses)){
+                        $this->stats($this->text);
+                        $understood = 'YES';
+                    }
                 }
                 if($understood == 'NO'){
                     $this->sendMessage('Non ho capito!');
@@ -147,11 +152,11 @@ class TelegramController extends Controller{
         
         $check = app("db")->table("users")->where('chat_id',$this->chat_id)->first();
         if(!isset($check['_id'])){
-            $message = 'Ok, siamo pronti ad iniziare, dimmi la tua e-mail!'. chr(10);
+            $message = 'Ok, siamo pronti ad iniziare, dimmi il tuo codice segreto!'. chr(10);
             app("db")->table("users")->insert(['chat_id' => $this->chat_id]);
         }else{
-            if(!isset($check['email']) || $check['email'] == ''){
-                $message = 'Dimmi la tua e-mail!';
+            if(!isset($check['api_key']) || $check['api_key'] == ''){
+                $message = 'Dimmi il tuo codice segreto!';
             }
         }
         $this->sendMessage($message);
@@ -190,12 +195,18 @@ class TelegramController extends Controller{
                     'id' => $this->masternodes[$mnID]['id']
                 ]
             );
-
-            $response = "Si chiama ".$masternode['masternodeName'] . chr(10);
-            $response .= "L'indirizzo è /".$masternode['coin_address'] . chr(10);
-            $response .= "Indirizzo IP ".$masternode['masternodeIP'] . chr(10);
-            $response .= "E' stato visto l'ultima volta ".$masternode['last_seen'] . chr(10);
-            $response .= "Il suo stato è ".$masternode['last_status'] . chr(10);
+            $stats = $this->hubApi(
+                'masternodes/stats',
+                [
+                    'apiKey' => $this->user['api_key'],
+                    'id' => $this->masternodes[$mnID]['id']
+                ]
+            );
+            
+            $response = "🤖".$masternode['masternodeName']. "🤖" . chr(10);
+            $response .= $masternode['coin_address'] . "" . chr(10);
+            $response .= "🔌 ".$masternode['last_status'] . "" . chr(10);
+            $response .= " 💣 <b>".round($stats['rewards'],2) .' '. $this->masternodes[$mnID]['coin'] . "</b>" . chr(10);
 
             $this->sendMessage($response);
         }else{
@@ -204,31 +215,38 @@ class TelegramController extends Controller{
         
     }
 
-    public function stats($mnID)
+    public function rewards()
     {
         
         $check = app("db")->table("users")->where('chat_id',$this->chat_id)->first();
         if(isset($check['_id'])){
             $api_key = $check['api_key'];
-            $stats = $this->hubApi(
-                'masternodes/stats',
-                [
-                    'apiKey' => $this->user['api_key'],
-                    'id' => $this->stats[$mnID]['id']
-                ]
-            );
-
-            $response = "Totale reward raccolte ".round($stats['rewards'],2) .' '. $this->stats[$mnID]['coin'] . chr(10);
+            $totale = 0;
+            $media = 0;
+            $oggi = 0;
+            foreach($this->masternodes as $mnID => $mn){
+                $stats = $this->hubApi(
+                    'masternodes/stats',
+                    [
+                        'apiKey' => $this->user['api_key'],
+                        'id' => $mn['id']
+                    ]
+                );
+                $totale += $stats['rewards'];
+                $media += $stats['average'];
+                if(isset($stats['dailyrewards'][date('Y-m-d')])){
+                    $oggi += $stats['dailyrewards'][date('Y-m-d')];
+                }
+            }
+            $response = "Totale reward raccolte <b>".round($totale) .' LYRA</b>' . chr(10);
+            $response .= "La media è di <b>".round($media) .' LYRA</b> al giorno' . chr(10);
+            $response .= "Oggi hai raccolto <b>".round($oggi).' LYRA</b>';
 
             $this->sendMessage($response);
         }else{
             $this->sendMessage('Sicuro di essere loggato?');
         }
         
-    }
-
-    public function rewards(){
-
     }
 
     public function logout()
@@ -280,7 +298,8 @@ class TelegramController extends Controller{
         $this->telegram->sendMessage([
             'chat_id' => $this->chat_id, 
             'text' => $message,
-            'reply_markup' => $reply
+            'reply_markup' => $reply,
+            'parse_mode' => 'html'
         ]);
 
     }
