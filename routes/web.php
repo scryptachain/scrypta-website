@@ -14,7 +14,6 @@ use Illuminate\Http\Response;
 use Illuminate\Http\Request;
 
 $router->get('/',"WebController@homepage");
-$router->get('/genesis',"WebController@genesis");
 $router->get('/homepage',"WebController@homepage");
 $router->get('/blockchain',"WebController@blockchain");
 $router->get('/about-scrypta',"WebController@about");
