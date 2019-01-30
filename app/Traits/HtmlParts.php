@@ -12,28 +12,28 @@ trait HtmlParts{
 					<div class="row gap-y text-center text-md-left">
 						<div class="col-md-4 mr-auto">
 							<img src="/logo.png" alt="" class="logo">
-							<p>Scryta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></a></p>
+							<p>Scrypta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></a></p>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">Progetto</h6>
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="#">Home</a>	
-								<a class="nav-item py-2" href="../about-scrypta">About</a>
-								<a class="nav-item py-2" href="https://roadmap.scryptachain.org/roadmaps"target="_blank">Roadmap</a>
+								<a class="nav-item py-2" href="/about-scrypta">About</a>
+								<a class="nav-item py-2" href="https://github.com/scryptachain/roadmap/projects/1" target="_blank">Roadmap</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">Risorse</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="../blockchain">Blockchain</a>
-								<a class="nav-item py-2" href="../sviluppatori">Portale Sviluppatori</a>
+								<a class="nav-item py-2" href="/blockchain">Blockchain</a>
+								<a class="nav-item py-2" href="/sviluppatori">Portale Sviluppatori</a>
 								<a class="nav-item py-2" href="https://chainz.cryptoid.info/lyra/"target="_blank">Block Explorer</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">Download</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="../homepage#wallet">Wallet</a>
+								<a class="nav-item py-2" href="/homepage#wallet">Wallet</a>
 								<a class="nav-item py-2" href="/light_paper.pdf"target="_blank">Light Paper</a>
 							
 							</nav>
@@ -186,7 +186,7 @@ trait HtmlParts{
 									<a class="nav-link" target="_blank" href="https://chainz.cryptoid.info/lyra/">Explorer</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" target="_blank" href="https://roadmap.scryptachain.org/roadmaps">Roadmap</a>
+									<a class="nav-link" target="_blank" href="https://github.com/scryptachain/roadmap/projects/1">Roadmap</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="/homepage#wallet">Wallet</a>
