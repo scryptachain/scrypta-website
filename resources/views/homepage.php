@@ -325,7 +325,7 @@
 							<h2 class="bold">Roadmap</h2>
 						</div>
 						<p class="regular">Visita e interagisci con il nostro Programma di Lavoro. Scopri gli obbiettivi pianificati e i progressi raggiunti da Scrypta:</p>
-						<a href="https://roadmap.scryptachain.org/roadmaps" target="_blank" class="btn btn-outline-3 btn-rounded bw-2 mt-4">ACCEDI</a>
+						<a href="https://github.com/scryptachain/roadmap/projects/1" target="_blank" class="btn btn-outline-3 btn-rounded bw-2 mt-4">ACCEDI</a>
 					</div>
 					<div class="col-md-6">
 						<div class="animate-bars">

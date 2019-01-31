@@ -19,6 +19,7 @@ $router->get('/blockchain',"WebController@blockchain");
 $router->get('/about-scrypta',"WebController@about");
 $router->get('/sviluppatori',"WebController@documentazione");
 $router->post('/registersell',"WebController@register");
+$router->get('/genesis',"WebController@genesis");
 
 $router->get('/bot/get-me', 'TelegramController@getMe');
 $router->get('/bot/set-hook', 'TelegramController@setWebHook');
