@@ -11,8 +11,8 @@
 			<div class="container" style="">
 				<div class="row">
 					<div class="col-md-6">
-						<h1 class="regular display-4 color-1 mb-4">L'Assetto di Scrypta</h1>
-						<p class="lead color-1">Le Organizzazioni che promuovono e partecipano allo sviluppo del Progetto, con la missione comune di favorire e sperimentare nuove prospettive tecnologiche basate sul linguaggio open-source offerto da Scrypta.</p>
+						<h1 class="regular display-4 color-1 mb-4"><?php echo trans('messages.assetto'); ?></h1>
+						<p class="lead color-1"><?php echo trans('messages.assettotext'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -26,16 +26,16 @@
 							<a href="javascript:void(0)" class="mt-4 color-5">
 								<h4 class="mr-3">Task Force</h4>
 							</a>
-							<p class="mt-4">Un gruppo formato dagli ideatori del progetto Scrypta e il Core Development Team, nei sei mesi precedenti la genesi hanno portato a termine i seguenti obiettivi:</p>
+							<p class="mt-4"><?php echo trans('messages.taskforcetext1'); ?></p>
 							<ul class="text-left">
 								<li>
-								Standardizzare i protocolli di rete e le API sull’ algoritmo QUARK di Scrypta, al fine di costruire la pietra angolare di un ecosistema condiviso, potenzialmente infinito e perfettamente scalabile.
+								<?php echo trans('messages.taskforcetext2'); ?>
 								</li>
 								<li>
-								Esplorare e favorire molteplici potenziali casi d'uso per i cripto-algoritmi basati su blockchain Scrypta.
+								<?php echo trans('messages.taskforcetext3'); ?>
 								</li>
 								<li>
-								Creare il “Genesis Block” - il blocco 0 - della blockchain di Scrypta.
+								<?php echo trans('messages.taskforcetext4'); ?>
 								</li>
 							</ul>
 						</div>
@@ -43,13 +43,13 @@
 							<a href="javascript:void(0)" class="mt-4 color-4">
 								<h4 class="mr-3">Scrypta Foundation</h4>
 							</a>
-							<p class="mt-4 text-left">E’ un’organizzazione autonoma, regolamentata giuridicamente, che rappresenta e finanzia progetti legati all’architettura di Scrypta. Comunica e diffonde la visione del progetto  e offre consulenze finalizzate allo sviluppo dell’intero ecosistema.</p>
+							<p class="mt-4 text-left"><?php echo trans('messages.foundationtext'); ?></p>
 						</div>
 						<div class="col-12 col-md-6 py-4 px-5">
 							<a href="javascript:void(0)" class="mt-4 color-3">
 								<h4 class="mr-3">Scrypta Consortium</h4>
 							</a>
-							<p class="mt-4 text-left">E’ un’associazione no profit dotata di un fondo proprietario allo scopo di finanziare progetti di ricerca  su Scrypta, portati avanti da comunità di sviluppo indipendenti, imprese, pubbliche amministrazioni e organizzazioni autonome.</p>
+							<p class="mt-4 text-left"><?php echo trans('messages.consortiumtext'); ?></p>
 						</div>
 					</div>
 				</div>
