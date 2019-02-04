@@ -8,6 +8,7 @@ use Illuminate\Http\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
+use \Illuminate\Support\Facades\Lang;
 
 class WebController extends Controller{
 
@@ -18,7 +19,10 @@ class WebController extends Controller{
      */
     public function __construct()
     {
-        //
+        $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+        $acceptLang = ['sp', 'it', 'en']; 
+        $lang = in_array($lang, $acceptLang) ? $lang : 'en';
+        app('translator')->setLocale($lang);
     }
 
     function load(){

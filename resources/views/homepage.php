@@ -13,12 +13,12 @@
 				<div class="row">
 					<div class="col-md-7">
 						<h1 class="color-1 bold">SCRYPTA
-							<span class="d-block light">Archiviazione e Certificazione</span>
+							<span class="d-block light"><?php echo trans('messages.archiviazionecertificazione'); ?></span>
 						</h1>
-						<p class="lead">Scrypta è un'Infrastruttura digitale decentralizzata che permette di semplificare e rendere più efficienti i processi di gestione, archiviazione e certificazione che caratterizzano i settori economici, produttivi e sociali. Il suo sistema flessibile permette la creazione di architetture complete a servizio di progetti illimitati e nuovi casi d’uso.</p>
+						<p class="lead"><?php echo trans('messages.archiviazionecertificazionetesto'); ?></p>
 						<nav class="nav mt-5">
 							<a href="/light_paper.pdf" target="_blank" class="nav-link mr-3 btn btn btn-rounded btn-1">
-								<i class="fas fa-tag mr-3"></i> Scarica il Light Paper</a>
+								<i class="fas fa-tag mr-3"></i> <?php echo trans('messages.scaricalightpaper'); ?></a>
 							<!--<a href="/sostieni" class="nav-link btn btn-rounded btn-success">Sostieni il progetto</a>-->
 						</nav>
 					</div>
@@ -32,7 +32,7 @@
 		<section id="features" class="section bg-1 edge top-left">
 			<div class="container">
 				<div class="section-heading mb-6 text-center">
-					<h2 class="bold">Cos'è Scrypta</h2>
+					<h2 class="bold"><?php echo trans('messages.cosescripta'); ?></h2>
 				</div>
 				<div class="row gap-y text-center text-md-left">
 					<div class="col-md-4 py-4 rounded shadow-hover text-center">
@@ -66,8 +66,8 @@
 							</svg>
 							<i class="pe pe-7s-network pe-3x color-1 icon center-xy"></i>
 						</div>
-						<h5 class="bold text-capitalize">Infrastructure & Protocol Provider</h5>
-						<p class="">Scrypta fornisce un'infrastruttura Blockchain all’avanguardia sulla quale costruire piattaforme digitali  innovative e sicure.</p>
+						<h5 class="bold text-capitalize"><?php echo trans('messages.infrastructureprovider'); ?></h5>
+						<p class=""><?php echo trans('messages.infrastructureprovidertesto'); ?></p>
 					</div>
 					<div class="col-md-4 py-4 rounded shadow-hover text-center">
 						<div class="icon-shape mb-4">
