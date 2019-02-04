@@ -100,8 +100,8 @@
 							</svg>
 							<i class="pe pe-7s-server pe-3x color-1 icon center-xy"></i>
 						</div>
-						<h5 class="bold text-capitalize">Application & Solution Provider </h5>
-						<p class="">Il Team di Scrypta è specializzato nella realizzazione di applicazioni che prevedono l’utilizzo di tecnologia Blockchain per casi d’uso specifici.</p>
+						<h5 class="bold text-capitalize"><?php echo trans('messages.applicationprovider'); ?></h5>
+						<p class=""><?php echo trans('messages.applicationprovidertext'); ?></p>
 					</div>
 					<div class="col-md-4 py-4 rounded shadow-hover text-center">
 						<div class="icon-shape mb-4">
@@ -134,8 +134,8 @@
 							</svg>
 							<i class="pe pe-7s-tools pe-3x color-1 icon center-xy"></i>
 						</div>
-						<h5 class="bold text-capitalize">Middleware Provider</h5>
-						<p class="">Scrypta fornisce agli sviluppatori il software necessario per realizzare le proprie applicazioni decentralizzate.</p>
+						<h5 class="bold text-capitalize"><?php echo trans('messages.middlewareprovider'); ?></h5>
+						<p class=""><?php echo trans('messages.middlewareprovidertext'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -175,11 +175,11 @@
 								<i class="icon fas fa-2x fa-th center-xy color-1"></i>
 							</div>
 						</div>
-						<h2 class="bold text-capitalize">La Blockchain di Scrypta</h2>
+						<h2 class="bold text-capitalize"><?php echo trans('messages.lablockchain'); ?></h2>
 						<p class="regular">
-						Sviluppato su protocollo <strong>open-source</strong> con licenza MIT (Massachusetts Institute of Technology), Scrypta è un sistema blockchain  che si basa su scambi e transazioni mediati dalla propria valuta digitale <strong>Lyra</strong>. Il suo sistema di funzionamento permette di svolgere funzioni legate all’inserimento dei dati all’interno della blockchain, aprendosi a infinite possibilità e nuovi casi di applicazione.
+						<?php echo trans('messages.lablockchaintext'); ?>
                         </p>
-						<a href="/blockchain" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Esplora</a>
+						<a href="/blockchain" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4"><?php echo trans('messages.esplora'); ?></a>
 					</div>
 				</div>
 				<div class="row gap-y align-items-center py-5" id="wallet">
@@ -210,8 +210,8 @@
 								<i class="icon fas fa-2x fa-wallet center-xy color-1"></i>
 							</div>
 						</div>
-						<h2 class="bold text-capitalize">Il wallet di Scrypta</h2>
-						<p class="regular">Il Client di Scrypta permette di avere il controllo della  valuta digitale <strong>Lyra</strong> in completa sicurezza. Raccomandiamo l'uso del Wallet ufficiale che ha funzioni di memorizzazione per le chiavi private dei tuoi indirizzi. Il <strong>Lyra Wallet</strong> è come il tuo conto bancario, prendi precauzioni aggiuntive con le tue password e assicurati di eseguire backup regolari. Scarica il Client adatto al tuo sistema operativo:</p>
+						<h2 class="bold text-capitalize"><?php echo trans('messages.walletscrypta'); ?></h2>
+						<p class="regular"><?php echo trans('messages.walletscryptatext'); ?></p>
 						<a href="/wallet/lyra-1.0.0-macOS.dmg" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Mac</a>
 						<a href="/wallet/lyra-1.0.0-win32-64.zip" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Windows</a>
 						<a href="/wallet/lyra-1.0.0-x86_64-linux-gnu.tar.gz" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Linux</a>
@@ -246,8 +246,8 @@
 							</div>
 						</div>
 						<h2 class="bold text-capitalize">Task Force, Foundation & Consortium</h2>
-						<p class="regular">Le Organizzazioni che promuovono e partecipano allo sviluppo del Progetto, con la missione comune di favorire e sperimentare nuove prospettive tecnologiche basate sul linguaggio open-source di Scrypta.</p>
-						<a href="/about-scrypta" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Approfondisci</a>
+						<p class="regular"><?php echo trans('messages.organizzazioni'); ?></p>
+						<a href="/about-scrypta" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4"><?php echo trans('messages.approfondisci'); ?></a>
 					</div>
 				</div>
 			</div>
@@ -256,12 +256,11 @@
 		<section class="section block bg-1 mt-3n mb-6">
 			<div class="container bring-to-front py-4">
 				<div class="shadow rounded text-center bg-4-gradient color-1 p-5">
-					<h2 class="mb-5">Sviluppare dApp con Scrypta</h2>
+					<h2 class="mb-5"><?php echo trans('messages.svilupparedapp'); ?></h2>
 					<p>
-					Scrypta ha ideato delle tecniche innovative di interfacciamento con la blockchain che permettono di sviluppare specifiche applicazioni, utilizzando i <strong>linguaggi standard</strong> più diffusi di programmazione.<br><br>
-                        La natura decentralizzata del progetto Scrypta lo rende particolarmente adatto alle collaborazioni e ai contributi di quanti vorranno creare soluzioni pratiche basate sulla sua architettura.
+					<?php echo trans('messages.svilupparedapptext'); ?>
 					</p>
-					<a href="/sviluppatori" class="btn btn-5 btn-rounded mt-4">Portale sviluppatori</a>
+					<a href="/sviluppatori" class="btn btn-5 btn-rounded mt-4"><?php echo trans('messages.portalesviluppatori'); ?></a>
 				</div>
 			</div>
 		</section>
@@ -272,42 +271,42 @@
 			<div class="container bring-to-front">
 				<div class="row gap-y">
 					<div class="col-md-12 text-center">
-                        <h2 class="bold">I Casi d'Uso di Scrypta</h2>
+                        <h2 class="bold"><?php echo trans('messages.casiduso'); ?></h2>
                     </div>
 					<div class="col-md-12">
 						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/digi.svg)">
-							<h3>Identità Digitale</h3>
-							<p class="color-2 mb-0">Usare la tecnologia blockchain per costruire e implementare soluzioni di identità digitale, riduce i costi e le frodi, e aumenta la trasparenza e l'efficienza. I dati blockchain di Scrypta sono immutabili ed è impossibile modificarli fraudolentemente.</p>
+							<h3><?php echo trans('messages.identitadigitale'); ?></h3>
+							<p class="color-2 mb-0"><?php echo trans('messages.identitadigitaletext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/sup.svg)">
-							<h3>Tracciamento filiera produttiva</h3>
-							<p class="color-2 mb-0">La nostra proposta tecnologica ha il potenziale per consentire non solo ai produttori, ma anche ai loro clienti, di entrare in un innovativo capitolo della tracciabilità nella catena di fornitura.</p>
+							<h3><?php echo trans('messages.tracciamentofiliera'); ?></h3>
+							<p class="color-2 mb-0"><?php echo trans('messages.tracciamentofilieratext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/iot.svg)">
-							<h3>Industrial IoT</h3>
-							<p class="color-2 mb-0">La Blockchain di Scrypta si candida al ruolo di applicazione chiave per l'Industrial IoT (Internet of Things). Può essere utilizzata infatti per tracciare miriadi di dispositivi collegati, consentendo l’elaborazione delle transazioni di dati che questi producono e il coordinamento tra i device fisici.</p>
+							<h3><?php echo trans('messages.industrialiot'); ?></h3>
+							<p class="color-2 mb-0"><?php echo trans('messages.industrialiottext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/legal.svg)">
-							<h3>Copyright e certificazioni</h3>
-							<p class="color-2 mb-0">Grazie alla blockchain di Scrypta è possibile l’inserimento di documenti come prove a sostegno durante diatribe legali che dimostrino inequivocabilmente la proprietà di un’opera o documento.</p>
+							<h3><?php echo trans('messages.certificazioni'); ?></h3>
+							<p class="color-2 mb-0"><?php echo trans('messages.certificazionitext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/healt.svg)">
-							<h3>Sanità e ricerca</h3>
-							<p class="color-2 mb-0">La tecnologia blockchain di Scrypta può migliorare le procedure di controllo e i meccanismi operativi delle strutture ospedaliere. E può portare importantissime efficienze a livello di gestione documentale sicura e analisi dei dati ai fini della ricerca scientifica.</p>
+							<h3><?php echo trans('messages.sanita'); ?></h3>
+							<p class="color-2 mb-0"><?php echo trans('messages.sanitatext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/pa.svg)">
-							<h3>Pubblica amministrazione</h3>
-							<p class="color-2 mb-0">L’ architettura di Scrypta può cambiare radicalmente il sistema di relazione tra i cittadini e la PA in ragione di una logica decentralizzata e distribuita che porta a una maggiore trasparenza, a una maggiore sicurezza e accessibilità.</p>
+							<h3><?php echo trans('messages.amministrazione'); ?></p></h3>
+							<p class="color-2 mb-0"><?php echo trans('messages.amministrazionetext'); ?></p></p>
 						</div>
 					</div>
 				</div>
@@ -321,11 +320,11 @@
 				<div class="row gap-y align-items-center">
 					<div class="col-md-6">
 						<div class="section-heading">
-							<p class="color-2 small text-uppercase">i nostri prossimi traguardi</p>
+							<p class="color-2 small text-uppercase"><?php echo trans('messages.traguardi'); ?></p>
 							<h2 class="bold">Roadmap</h2>
 						</div>
-						<p class="regular">Visita e interagisci con il nostro Programma di Lavoro. Scopri gli obbiettivi pianificati e i progressi raggiunti da Scrypta:</p>
-						<a href="https://github.com/scryptachain/roadmap/projects/1" target="_blank" class="btn btn-outline-3 btn-rounded bw-2 mt-4">ACCEDI</a>
+						<p class="regular"><?php echo trans('messages.roadmaptext'); ?></p>
+						<a href="https://github.com/scryptachain/roadmap/projects/1" target="_blank" class="btn btn-outline-3 btn-rounded bw-2 mt-4"><?php echo trans('messages.accedi'); ?></a>
 					</div>
 					<div class="col-md-6">
 						<div class="animate-bars">
