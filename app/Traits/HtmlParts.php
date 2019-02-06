@@ -177,7 +177,7 @@ trait HtmlParts{
 									<a class="nav-link" href="/blockchain">Blockchain</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="/sviluppatori">Sviluppatori</a>
+									<a class="nav-link" href="/sviluppatori">'.trans('messages.sviluppatori').'</a>
 								</li>
 								<!--<li class="nav-item">
 									<a class="nav-link" href="/sostieni-il-progetto">Sostieni il progetto</a>
