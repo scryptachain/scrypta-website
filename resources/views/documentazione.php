@@ -49,7 +49,7 @@
 		<!-- ./Counters -->
 		<section class="text-center">
 			<h2><?php echo trans('messages.prestodisponibile'); ?></h2>
-			<h3><?php echo trans('messages.rimaniincontato'); ?></h3>
+			<h3><?php echo trans('messages.rimaniincontatto'); ?></h3>
 		</section>
 	</main>
 
