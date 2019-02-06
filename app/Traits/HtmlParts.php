@@ -12,10 +12,10 @@ trait HtmlParts{
 					<div class="row gap-y text-center text-md-left">
 						<div class="col-md-4 mr-auto">
 							<img src="/logo.png" alt="" class="logo">
-							<p>Scrypta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></a></p>
+							<p>'.trans('messages.footertext').'<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></a></p>
 						</div>
 						<div class="col-md-2">
-							<h6 class="py-2 bold">Progetto</h6>
+							<h6 class="py-2 bold">'.trans('messages.progettofooter').'</h6>
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="#">Home</a>	
 								<a class="nav-item py-2" href="/about-scrypta">About</a>
@@ -26,7 +26,7 @@ trait HtmlParts{
 							<h6 class="py-2 bold">Risorse</h6>
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="/blockchain">Blockchain</a>
-								<a class="nav-item py-2" href="/sviluppatori">Portale Sviluppatori</a>
+								<a class="nav-item py-2" href="/sviluppatori">'.trans('messages.sviluppatorifooter').'</a>
 								<a class="nav-item py-2" href="https://chainz.cryptoid.info/lyra/"target="_blank">Block Explorer</a>
 							</nav>
 						</div>
@@ -180,7 +180,7 @@ trait HtmlParts{
 									<a class="nav-link" href="/sviluppatori">'.trans('messages.sviluppatori').'</a>
 								</li>
 								<!--<li class="nav-item">
-									<a class="nav-link" href="/sostieni-il-progetto">Sostieni il progetto</a>
+									<a class="nav-link" href="/sostieni-il-progetto">'.trans('messages.sostieniprogetto').'</a>
 								</li>-->
 								<li class="nav-item">
 									<a class="nav-link" target="_blank" href="https://chainz.cryptoid.info/lyra/">Explorer</a>
@@ -192,7 +192,7 @@ trait HtmlParts{
 									<a class="nav-link" href="/homepage#wallet">Wallet</a>
 								</li><!--
 								<li class="nav-item">
-									<a class="nav-link" href="/contatti">Contatti</a>
+									<a class="nav-link" href="/contatti">'.trans('messages.sostieniprogetto').'</a>
 								</li>-->
 							</ul>
 							<nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">

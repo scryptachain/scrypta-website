@@ -74,5 +74,11 @@ return [
     'taskforcetext4' => "‘Genesis Block’ creation,  block 0 of the Scrypta blockchain.",
     'foundationtext' => "It is an autonomous, legally regulated organization that represents and finances projects related to the Scrypta architecture. It communicates and spreads the Project vision, offering consultancy aimed to the entire ecosystem development.",
     'consortiumtext' => "It is a non-profit association with a proprietary fund aimed to finance Scrypta research projects carried out by independent development communities, businesses, public administrations and autonomous organizations.",
-    'sviluppatori' => "Developers"
+    'sviluppatori' => "Developers",
+    'sostieniprogetto' => "Support the project",
+    'contatti' => "Contacts",
+    'footertext' => "Scrypta, a decentralized storage and certification infrastructure offering the opportunity to redefine business models and relationships among citizens, businesses and governments.",
+    'progettofooter' => "Project",
+    'risorsefooter' => "Resources",
+    'sviluppatorifooter' => "Developers Area",
 ];
