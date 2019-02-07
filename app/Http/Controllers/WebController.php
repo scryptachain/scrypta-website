@@ -17,11 +17,16 @@ class WebController extends Controller{
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(Request $request)
     {
-        $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-        $acceptLang = ['sp', 'it', 'en']; 
-        $lang = in_array($lang, $acceptLang) ? $lang : 'en';
+        if(isset($request->route()[2]['language'])){
+            $lang = $request->route()[2]['language'];
+        }else{
+            $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+            $acceptLang = ['sp', 'it', 'en']; 
+            $lang = in_array($lang, $acceptLang) ? $lang : 'en';
+        }
+        $this->language = $lang;
         app('translator')->setLocale($lang);
     }
 
@@ -29,22 +34,22 @@ class WebController extends Controller{
         return view('index', ['header' => $this->header(), 'footer' => $this->footer(), 'menu' => $this->menu()]);
     }
     function homepage(){
-        return view('homepage', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+        return view('homepage', ['header' => $this->headerpublic($this->language,'homepage'), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
     function contatti(){
-        return view('contatti', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+        return view('contatti', ['header' => $this->headerpublic($this->language,'contacts'), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
     function blockchain(){
-        return view('blockchain', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+        return view('blockchain', ['header' => $this->headerpublic($this->language,'blockchain'), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
     function sostieni(){
-        return view('sostieni', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+        return view('sostieni', ['header' => $this->headerpublic($this->language), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
     function documentazione(){
-        return view('documentazione', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+        return view('documentazione', ['header' => $this->headerpublic($this->language, 'developers'), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
     function about(){
-        return view('about', ['header' => $this->headerpublic(), 'footer' => $this->footerpublic()]);
+        return view('about', ['header' => $this->headerpublic($this->language,'about-scrypta'), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
     function genesis(){
         return view('genesis', ['header' => $this->header(), 'footer' => $this->footer(), 'menu' => $this->menu()]);

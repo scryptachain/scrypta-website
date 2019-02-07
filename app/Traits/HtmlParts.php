@@ -5,7 +5,7 @@ namespace App\Traits;
  *
  */
 trait HtmlParts{
-	function footerpublic(){
+	function footerpublic($language){
 		return '
 				<footer class="site-footer section block bg-1">
 				<div class="container py-4">
@@ -17,23 +17,23 @@ trait HtmlParts{
 						<div class="col-md-2">
 							<h6 class="py-2 bold">'.trans('messages.progettofooter').'</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="#">Home</a>	
-								<a class="nav-item py-2" href="/about-scrypta">About</a>
+								<a class="nav-item py-2" href="/'.$language.'/homepage">Home</a>	
+								<a class="nav-item py-2" href="/'.$language.'/about-scrypta">About</a>
 								<a class="nav-item py-2" href="https://github.com/scryptachain/roadmap/projects/1" target="_blank">Roadmap</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">Risorse</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="/blockchain">Blockchain</a>
-								<a class="nav-item py-2" href="/sviluppatori">'.trans('messages.sviluppatorifooter').'</a>
+								<a class="nav-item py-2" href="/'.$language.'/blockchain">Blockchain</a>
+								<a class="nav-item py-2" href="/'.$language.'/developers">'.trans('messages.sviluppatorifooter').'</a>
 								<a class="nav-item py-2" href="https://chainz.cryptoid.info/lyra/"target="_blank">Block Explorer</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">Download</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="/homepage#wallet">Wallet</a>
+								<a class="nav-item py-2" href="/'.$language.'/homepage#wallet">Wallet</a>
 								<a class="nav-item py-2" href="/light_paper.pdf"target="_blank">Light Paper</a>
 							
 							</nav>
@@ -119,7 +119,14 @@ trait HtmlParts{
 		</html>
 		';
 	}
-	function headerpublic(){
+	function headerpublic($language,$route){
+		if($language == 'it'){
+			$dropdownlanguage = '
+				<a class="dropdown-item" href="/en/'.$route.'">EN</a>';
+		}else{
+			$dropdownlanguage = '
+				<a class="dropdown-item" href="/it/'.$route.'">IT</a>';
+		}
 		return '
 		<!doctype html>
 			<html lang="en">
@@ -167,21 +174,18 @@ trait HtmlParts{
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a href="/homepage" class="navbar-brand">
+						<a href="/'.$language.'/homepage" class="navbar-brand">
 							<img src="/logo.png" alt="ScryptaChain" height="35" class="logo logo-sticky d-block d-md-none">
 							<img src="/logo.png" alt="ScryptaChain" height="35" class="logo d-none d-md-block">
 						</a>
 						<div class="collapse navbar-collapse ml-auto" id="main-navbar">
 							<ul class="nav navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="/blockchain">Blockchain</a>
+									<a class="nav-link" href="/'.$language.'/blockchain">Blockchain</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="/sviluppatori">'.trans('messages.sviluppatori').'</a>
+									<a class="nav-link" href="/'.$language.'/developers">'.trans('messages.sviluppatori').'</a>
 								</li>
-								<!--<li class="nav-item">
-									<a class="nav-link" href="/sostieni-il-progetto">'.trans('messages.sostieniprogetto').'</a>
-								</li>-->
 								<li class="nav-item">
 									<a class="nav-link" target="_blank" href="https://chainz.cryptoid.info/lyra/">Explorer</a>
 								</li>
@@ -189,18 +193,21 @@ trait HtmlParts{
 									<a class="nav-link" target="_blank" href="https://github.com/scryptachain/roadmap/projects/1">Roadmap</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="/homepage#wallet">Wallet</a>
-								</li><!--
-								<li class="nav-item">
-									<a class="nav-link" href="/contatti">'.trans('messages.sostieniprogetto').'</a>
-								</li>-->
+									<a class="nav-link" href="/'.$language.'/homepage#wallet">Wallet</a>
+								</li>
 							</ul>
-							<nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
-								<a class="btn btn-rounded btn-outline mr-3 px-3" href="https://github.com/scryptachain" target="_blank">
+							<ul class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
+								<li class="btn btn-rounded btn-outline mr-3 px-3" style="padding-top:15px" href="https://github.com/scryptachain" target="_blank">
 									<i class="fab fa-github d-none d-md-inline mr-md-0 mr-lg-2"></i>
 									<span class="d-md-none d-lg-inline">Github</span>
-								</a>
-							</nav>
+								</òli>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;" aria-expanded="false">'.strtoupper($language).'</a>
+									<div class="dropdown-menu p-3">
+										'.$dropdownlanguage.'
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</nav>

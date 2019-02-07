@@ -17,7 +17,13 @@ $router->get('/',"WebController@homepage");
 $router->get('/homepage',"WebController@homepage");
 $router->get('/blockchain',"WebController@blockchain");
 $router->get('/about-scrypta',"WebController@about");
-$router->get('/sviluppatori',"WebController@documentazione");
+$router->get('/developers',"WebController@documentazione");
+
+$router->get('{language}/homepage',"WebController@homepage");
+$router->get('{language}/blockchain',"WebController@blockchain");
+$router->get('{language}/about-scrypta',"WebController@about");
+$router->get('{language}/developers',"WebController@documentazione");
+
 $router->post('/registersell',"WebController@register");
 $router->get('/genesis',"WebController@genesis");
 

@@ -44,7 +44,7 @@ return [
     'blockchaintech2' => "Queste due entità costituiscono il <strong>distributed ledger</strong> sul quale si registrano informazioni e valori. Tutti coloro che fanno parte del network di Scrypta hanno una copia identica del registro, e qualsiasi cambiamento viene apportato si riflette immediatamente in tutte le copie disponibili.",
     'nodi' => "Nodi",
     'noditext' => "Rappresentano i membri della Blockchain e sono costituiti dai computer di ciascun utente connessi alla rete di Scrypta.",
-    'trnsazioni' => "Transazioni",
+    'transazioni' => "Transazioni",
     'transazionitext' => "Costituite dai dati che rappresentano i valori oggetto di “scambio” e che necessitano di essere verificati, approvati e archiviati.",
     'blocchi' => "Blocchi",
     'blocchitext' => "Creati ogni 60 secondi dall’algoritmo che regola Scrypta, formano il raggruppamento di un insieme di transazioni,  unite per formare i diversi anelli della catena.",
