@@ -150,7 +150,7 @@
 				<div class="row gap-y align-items-center py-5">
 					<div class="col-md-6">
 						<figure>
-							<img src="img/shps/blockchain.svg" class="img-responsive" alt="">
+							<img src="/img/shps/blockchain.svg" class="img-responsive" alt="">
 						</figure>
 					</div>
 					<div class="col-md-6">
@@ -185,7 +185,7 @@
 				<div class="row gap-y align-items-center py-5" id="wallet">
 					<div class="col-md-6 order-md-2">
 						<figure>
-							<img src="img/bg/online-payment.svg" class="img-responsive w-100" alt="">
+							<img src="/img/bg/online-payment.svg" class="img-responsive w-100" alt="">
 						</figure>
 					</div>
 					<div class="col-md-6">
@@ -220,7 +220,7 @@
 				<div class="row gap-y align-items-center py-5">
 					<div class="col-md-6">
 						<figure>
-							<img src="img/shps/infrastruttura.svg" class="img-responsive w-100" alt="">
+							<img src="/img/shps/infrastruttura.svg" class="img-responsive w-100" alt="">
 						</figure>
 					</div>
 					<div class="col-md-6">
@@ -274,37 +274,37 @@
                         <h2 class="bold"><?php echo trans('messages.casiduso'); ?></h2>
                     </div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/digi.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(/img/shps/payments/digi.svg)">
 							<h3><?php echo trans('messages.identitadigitale'); ?></h3>
 							<p class="color-2 mb-0"><?php echo trans('messages.identitadigitaletext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/sup.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(/img/shps/payments/sup.svg)">
 							<h3><?php echo trans('messages.tracciamentofiliera'); ?></h3>
 							<p class="color-2 mb-0"><?php echo trans('messages.tracciamentofilieratext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/iot.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(/img/shps/payments/iot.svg)">
 							<h3><?php echo trans('messages.industrialiot'); ?></h3>
 							<p class="color-2 mb-0"><?php echo trans('messages.industrialiottext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/legal.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(/img/shps/payments/legal.svg)">
 							<h3><?php echo trans('messages.certificazioni'); ?></h3>
 							<p class="color-2 mb-0"><?php echo trans('messages.certificazionitext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/healt.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(/img/shps/payments/healt.svg)">
 							<h3><?php echo trans('messages.sanita'); ?></h3>
 							<p class="color-2 mb-0"><?php echo trans('messages.sanitatext'); ?></p>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(img/shps/payments/pa.svg)">
+						<div class="rounded bg-1 shadow-box image-background contain off-left-background p-4 pl-6 pl-md-9" style="background-image: url(/img/shps/payments/pa.svg)">
 							<h3><?php echo trans('messages.amministrazione'); ?></p></h3>
 							<p class="color-2 mb-0"><?php echo trans('messages.amministrazionetext'); ?></p></p>
 						</div>

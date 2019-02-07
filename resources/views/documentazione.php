@@ -54,3 +54,14 @@
 	</main>
 
 <?php echo $footer; ?>
+<script>
+	if ($(".typed").length) {
+        var typed = new Typed('.typed', {
+            strings: ['Verifica identità', 'Integra con il web', 'Crea database'],
+            typeSpeed: 50,
+            backDelay: 500,
+            backSpeed: 50,
+            loop: true
+        });
+    }
+</script>

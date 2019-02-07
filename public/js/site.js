@@ -155,15 +155,6 @@ $(function() {
     /**
      * typed.js
      **/
-    if ($(".typed").length) {
-        var typed = new Typed('.typed', {
-            strings: ['Verifica identità', 'Integra con il web', 'Crea database'],
-            typeSpeed: 50,
-            backDelay: 500,
-            backSpeed: 50,
-            loop: true
-        });
-    }
 
     /**
      * COUNTERS
@@ -265,12 +256,12 @@ $(function() {
             step: 100,
             duration: 1000,
             elements: [
-                { label: "RESTful Public API", value: 60},
-                { label: "IdA Node", value: 50 },
+                { label: "RESTful Public API", value: 90},
+                { label: "IdA Node", value: 85 },
                 { label: "Identity card", value: 65 },
-                { label: "Light Wallet", value: 20 },
+                { label: "Light Wallet", value: 100 },
                 { label: "Whitepaper", value: 70 },
-                { label: "Scrypta Core - JS library", value: 30}
+                { label: "Scrypta Core - JS library", value: 80}
             ]
         });
     })();
