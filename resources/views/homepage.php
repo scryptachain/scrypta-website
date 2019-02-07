@@ -17,7 +17,7 @@
 						</h1>
 						<p class="lead"><?php echo trans('messages.archiviazionecertificazionetesto'); ?></p>
 						<nav class="nav mt-5">
-							<a href="/light_paper.pdf" target="_blank" class="nav-link mr-3 btn btn btn-rounded btn-1">
+							<a href="/scrypta_light_paper_<?php echo $language; ?>.pdf" target="_blank" class="nav-link mr-3 btn btn btn-rounded btn-1">
 								<i class="fas fa-tag mr-3"></i> <?php echo trans('messages.scaricalightpaper'); ?></a>
 							<!--<a href="/sostieni" class="nav-link btn btn-rounded btn-success">Sostieni il progetto</a>-->
 						</nav>
