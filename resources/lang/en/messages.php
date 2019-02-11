@@ -15,7 +15,7 @@ return [
     'middlewareprovidertext' => "Scrypta provides its developers the required software and knowledge to build their own decentralized applications",
     ///
     'lablockchain' => "Scrypta Blockchain",
-    'lablockchaintext' => "Developed on a MIT (Massachusetts Institute of Technology) licensed <strong>open-source protocol</strong>, Scrypta is a blockchain infrastructure based on exchanges and transactions carried by its own <strong>Lyra</strong>digital currency. Scrypta operating system allows to perform timestamped data entry tasks in the blockchain, bringing endless possibilities and new use cases.",
+    'lablockchaintext' => "Developed on a MIT (Massachusetts Institute of Technology) licensed <strong>open-source protocol</strong>, Scrypta is a blockchain infrastructure based on exchanges and transactions carried by its own <strong>Lyra</strong> digital currency. Scrypta operating system allows to perform timestamped data entry tasks in the blockchain, bringing endless possibilities and new use cases.",
     'esplora' => "Explore",
     ///
     'walletscrypta' => "Scrypta Wallet",
