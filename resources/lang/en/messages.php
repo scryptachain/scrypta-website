@@ -18,7 +18,7 @@ return [
     'lablockchaintext' => "Developed on a MIT (Massachusetts Institute of Technology) licensed <strong>open-source protocol</strong>, Scrypta is a blockchain infrastructure based on exchanges and transactions carried by its own <strong>Lyra</strong>digital currency. Scrypta operating system allows to perform timestamped data entry tasks in the blockchain, bringing endless possibilities and new use cases.",
     'esplora' => "Explore",
     ///
-    'walletscrypta' => "Scrypta Blockchain",
+    'walletscrypta' => "Scrypta Wallet",
     'walletscryptatext' => "The Scrypta Client allows you to manage the <strong>Lyra</strong> digital currency in complete security. We strongly recommend to employ the official Scrypta Wallet featured with storage capabilities for your addresses private keys. Think of the <strong>Lyra Wallet</strong> as your bank account: take extra precautions with your passwords and make sure to run regular backups. Download the suitable Client for your operating system:",
     ///
     'organizzazioni' => "Task Force, Foundation and Consortium partake in the development of the Scrypta project, with the common goal of promoting and experimenting new technological achievements based on the open-source language Scrypta.",
