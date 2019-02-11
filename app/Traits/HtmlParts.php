@@ -122,10 +122,16 @@ trait HtmlParts{
 	function headerpublic($language,$route){
 		if($language == 'it'){
 			$dropdownlanguage = '
-				<a class="dropdown-item" href="/en/'.$route.'">EN</a>';
-		}else{
+				<a class="dropdown-item" href="/en/'.$route.'">EN</a>
+				<a class="dropdown-item" href="/sp/'.$route.'">SP</a>';
+		}elseif($language == 'en'){
 			$dropdownlanguage = '
-				<a class="dropdown-item" href="/it/'.$route.'">IT</a>';
+				<a class="dropdown-item" href="/it/'.$route.'">IT</a>
+				<a class="dropdown-item" href="/sp/'.$route.'">SP</a>';
+		}elseif($language == 'sp'){
+			$dropdownlanguage = '
+				<a class="dropdown-item" href="/it/'.$route.'">IT</a>
+				<a class="dropdown-item" href="/en/'.$route.'">EN</a>';
 		}
 		return '
 		<!doctype html>
