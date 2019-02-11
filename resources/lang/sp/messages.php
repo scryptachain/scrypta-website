@@ -1,9 +1,11 @@
 <?php
 
 return [
+    //Homepage
     'archiviazionecertificazione' => 'Archivo y Certificación',
     'archiviazionecertificazionetesto' => "Scrypta es una infraestructura digital descentralizada que simplifica y hace más eficientes los procesos de gestión, archivo y certificación de los sectores económico, productivo y social. El sistema flexible Scrypta permite crear arquitecturas completas para un número ilimitado de proyectos y nuevos casos de uso.",
     'scaricalightpaper' => "Descargue el Light Paper",
+    //parte2
     'cosescripta' => "Qué es Scrypta",
     'infrastructureprovider' => "Proveedor de Infraestructura y Protocolo",
     'infrastructureprovidertesto' => "Scrypta proporciona una infraestructura Blockchain de última generación sobre la que construir plataformas digitales innovadoras y seguras.",
@@ -11,16 +13,20 @@ return [
     'applicationprovidertext' => "El equipo de Scrypta está especializado en la realización de aplicaciones que requieren el uso de la tecnología Blockchain para casos de uso específicos.",
     'middlewareprovider' => "Proveedor de Middleware",
     'middlewareprovidertext' => "Scrypta proporciona a los desarrolladores el software que necesitan para crear sus propias aplicaciones descentralizadas.",
+    //parte3
     'lablockchain' => "La Blockchain De Scrypta",
     'lablockchaintext' => "Desarrollado sobre un protocolo de <strong>código abierto</strong> con licencia MIT (Massachusetts Institute of Technology) Scrypta es un sistema blockchain que se basa en intercambios y transacciones mediadas por su propia moneda digital <strong>Lyra</strong>. Su sistema de funcionamiento permite realizar funciones relacionadas con la entrada de datos en la cadena de bloques, abriendo un sinfín de posibilidades y nuevos casos de aplicación.",
     'esplora' => "Explora",
+    //parte4
     'walletscrypta' => "La Wallet de Scrypta",
     'walletscryptatext' => "El cliente de Scrypta le permite controlar su moneda digital <strong>Lyra</strong> con total seguridad. Recomendamos el uso de la Wallet oficial que tiene funciones de almacenamiento para las claves privadas de sus direcciones. La <strong>Lyra Wallet</strong> es como su cuenta bancaria, tome precauciones adicionales con sus contraseñas y asegúrese de hacer copias de seguridad regulares. Descargue el Cliente adecuado para su sistema operativo:",
     'organizzazioni' => "Organizaciones que promueven y participan en el desarrollo del proyecto, con la misión común de fomentar y experimentar con nuevas perspectivas tecnológicas basadas en el lenguaje de código abierto de Scrypta.",
     'approfondisci' => "Leer más",
+    //parte5
     'svilupparedapp' => "Desarrollo de dApps con Scrypta",
     'svilupparedapptext' => "Scrypta ha creado técnicas innovadoras de interfaz con la cadena de bloques que permiten desarrollar aplicaciones específicas, utilizando los <strong>lenguajes de programación estándar</strong> más comunes.<br><br> El carácter descentralizado del proyecto Scrypta lo hace especialmente adecuado para las colaboraciones y aportaciones de aquellos que quieran crear soluciones prácticas basadas en su arquitectura.",
     'portalesviluppatori' => "Portal para desarrolladores",
+    //parte6
     'casiduso' => "Casos de uso Scrypta",
     'identitadigitale' => "Identidad Digital",
     'identitadigitaletext' => "Usare la tecnologia blockchain per costruire e implementare soluzioni di identità digitale, riduce i costi e le frodi, e aumenta la trasparenza e l'efficienza. I dati blockchain di Scrypta sono immutabili ed è impossibile modificarli fraudolentemente.",
@@ -34,10 +40,11 @@ return [
     'sanitatext' => "La tecnología blockchain de Scrypta puede mejorar los procedimientos de control y los mecanismos operativos de las instalaciones hospitalarias. Y puede aportar importantes eficiencias para asegurar la gestión de documentos y el análisis de datos con fines de investigación científica.",
     'amministrazione' => "Administración Pública",
     'amministrazionetext' => "La arquitectura de Scrypta puede cambiar radicalmente el sistema de relaciones entre los ciudadanos y el AP, debido a una lógica descentralizada y distribuida que conduce a una mayor transparencia, seguridad y accesibilidad.",
+    //parte7
     'traguardi' => "Scrypt Blockchain Next Goals",
     'roadmaptext' => "Visite e interactúe con nuestro Programa de Trabajo. Obtenga más información sobre los objetivos planificados y el progreso de Scrypta:",
     'accedi' => "ACCEDER",
-    
+    //Blockchain Page
     'lablockchaindiscrypta' => "La Blockchain de Scrypta",
     'lablockchaindiscryptatext' => "Scrypta es una plataforma distribuida cuyo objetivo es redefinir los modelos de negocio y las relaciones entre ciudadanos, empresas y gobiernos, haciendo que los datos sean <strong>únicos, inmutables, trazables</strong> y no falsificables.",
     'blockchaintechnologytext' => "La blockchain de Scrypta consta de dos elementos clave: il <strong>la base de datos distribuida</strong> y una <strong>red descentralizada</strong>.",
@@ -58,6 +65,7 @@ return [
     'specifiche' => "Especificaciones Tecnicas",
     'explorertext' => "La herramienta clave para explorar los bloques y su extracción, obtener información sobre direcciones y transacciones y conocer el estado de la cadena de bloques de Scrypta.",
     'entra' => "Entrar",
+    //Sviluppatori Page
     'benvenutisv' => "Bienvenidos Desarrolladores!",
     'strumdapp' => "Herramientas para tus dAPPs",
     'apitext' => "APIs que permiten técnicas innovadoras de <strong>interconexión con la blockchain</strong>. De esta manera, los desarrolladores pueden diseñar aplicaciones descentralizadas específicas utilizando los <strong>lenguajes de programación estándar</strong> para la web.",
@@ -65,7 +73,7 @@ return [
     'ipfstext' => "A través de la unión de masternodes e IdA Node, hemos creado una infraestructura básica para <strong>Inter Planetary File System</strong>: una técnica innovadora para crear archivos descentralizados y distribuidos para archivos e hipermedia.",
     'prestodisponibile' => "La documentación detallada estará disponible en breve!",
     'rimaniincontatto' => "Manténgase en contacto con nosotros.",
-    
+    //Assetto
     'assetto' => "La Estructura de Scrypta",
     'assettotext' => "Organizaciones que promueven y participan en el desarrollo del Proyecto, con la misión común de fomentar y experimentar con nuevas perspectivas tecnológicas basadas en el lenguaje open-source que ofrece Scrypta",
     'taskforcetext1' => "Un grupo formado por los creadores del proyecto Scrypta y el Core Development Team, en los seis meses anteriores a la génesis han completado los siguientes objetivos:",                                   
@@ -74,6 +82,7 @@ return [
     'taskforcetext4' => "Crear el “Genesis Block” - el bloque 0 - de la blockchain de Scrypta.",
     'foundationtext' => "Es una organización autónoma y legalmente regulada que representa y financia proyectos relacionados con la arquitectura de Scrypta. Comunica y difunde la visión del proyecto y ofrece asesoramiento para el desarrollo de todo el ecosistema.",
     'consortiumtext' => "Es una asociación sin ánimo de lucro con un fondo propio para la financiación de proyectos de investigación sobre Scrypta, realizados por comunidades de desarrollo independientes, empresas, administraciones públicas y organismos autónomos.",
+    //Footer
     'sviluppatori' => "Desarroladores",
     'sostieniprogetto' => "Apoyar el proyecto",
     'contatti' => "Contactos",
