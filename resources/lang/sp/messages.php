@@ -68,6 +68,9 @@ return [
     //Sviluppatori Page
     'benvenutisv' => "Bienvenidos Desarrolladores!",
     'strumdapp' => "Herramientas para tus dAPPs",
+    'animazione1' => "verificas la identidad",
+    'animazione2' => "se integra con la web",
+    'animazione3' => "creas base de datos",
     'apitext' => "APIs que permiten técnicas innovadoras de <strong>interconexión con la blockchain</strong>. De esta manera, los desarrolladores pueden diseñar aplicaciones descentralizadas específicas utilizando los <strong>lenguajes de programación estándar</strong> para la web.",
     'idanodetext' => "Reciben los lenguajes de desarrollo más comunes como <strong>PHP, NodeJS e MongoDB</strong> y sirven básicamente para descifrar todas las operaciones implícitas y complejas que realiza el usuario final de una aplicación.",
     'ipfstext' => "A través de la unión de masternodes e IdA Node, hemos creado una infraestructura básica para <strong>Inter Planetary File System</strong>: una técnica innovadora para crear archivos descentralizados y distribuidos para archivos e hipermedia.",

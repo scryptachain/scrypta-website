@@ -57,7 +57,7 @@
 <script>
 	if ($(".typed").length) {
         var typed = new Typed('.typed', {
-            strings: ['Verifica identità', 'Integra con il web', 'Crea database'],
+            strings: ['<?php echo trans('messages.animazione1'); ?>', '<?php echo trans('messages.animazione2'); ?>', '<?php echo trans('messages.animazione3'); ?>'],
             typeSpeed: 50,
             backDelay: 500,
             backSpeed: 50,
