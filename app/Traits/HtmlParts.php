@@ -140,7 +140,7 @@ trait HtmlParts{
 			<head>
 				<meta charset="utf-8">
 				<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
-				<title>Scyrpta Blockchain - Make Blockchain for real</title>
+				<title>Scrypta Blockchain - Make Blockchain for real</title>
 				<meta name="description" content="">
 				<meta name="viewport" content="width=device-width,initial-scale=1">
 				<!-- Place favicon.ico in the root directory -->
@@ -203,10 +203,10 @@ trait HtmlParts{
 								</li>
 							</ul>
 							<ul class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
-								<li class="btn btn-rounded btn-outline mr-3 px-3" style="padding-top:15px" href="https://github.com/scryptachain" target="_blank">
+								<li class="btn btn-rounded btn-outline mr-3 px-3" style="padding-top:15px" onClick="window.location=\'https://github.com/scryptachain\'" target="_blank">
 									<i class="fab fa-github d-none d-md-inline mr-md-0 mr-lg-2"></i>
 									<span class="d-md-none d-lg-inline">Github</span>
-								</òli>
+								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;" aria-expanded="false">'.strtoupper($language).'</a>
 									<div class="dropdown-menu p-3">
