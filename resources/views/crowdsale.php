@@ -33,7 +33,7 @@
 							<div class="pricing-value">
 								<span class="price bold">0,5</span>
 							</div>
-							<p>Cloud Wallet Full Node, through which they can participate immediately to the Masternode Super Validator process</p>
+							<p>Cloud Wallet Full Node, through which you can participate immediately to the Masternode Super Validator process</p>
 						</div>
 						<ul class="list-group list-group-flush">
 							<li class="list-group-item ">15000 LYRA</li>
