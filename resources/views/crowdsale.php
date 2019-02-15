@@ -12,8 +12,8 @@
 		<div class="container" style="">
 			<div class="row">
 				<div class="col-md-6">
-					<h1 class="regular display-4 color-1 mb-4">Pricing plans</h1>
-					<p class="lead color-1">Simple and affordable pricing plans. Try Dashcore with no obligation</p>
+					<h1 class="regular display-4 color-1 mb-4">Scrypta Crowdsale</h1>
+					<p class="lead color-1">Distribution stage that will allow participants to contribute to the project by collaborating on the growth of the infrastructure.</p>
 				</div>
 			</div>
 		</div>
@@ -22,46 +22,46 @@
 	<section>
 		<div class="container">
 			<div class="section-heading text-center">
-				<h2 class="mb-2">Simple and affordable prices</h2>
-				<p class="lead color-2">Try Dashcore Pro for 14 days. No credit card required!.</p>
+				<h2 class="mb-2">How to Contribute</h2>
+				<p class="lead color-2">Scrypta will distribute the crowdsale LYRA coins batch to cover the initial costs for the development and deployment of the infrastructure.</p>
 			</div>
 			<div class="row">
-				<div class="col-md-6 mt-5">
+			<div class="col-md-6 mt-5">
 					<div class="card text-center">
-						<div class="pricing card-header bg-6-gradient d-flex align-items-center flex-column">
-							<h4>Personal</h4>
+						<div class="pricing card-header bg-3-gradient color-1 d-flex align-items-center flex-column">
+							<h4>Scrypta Masternodes Platforms</h4>
 							<div class="pricing-value">
-								<span class="price bold">0.99</span>
+								<span class="price bold">0,5</span>
 							</div>
-							<p>Includes simple but powerful functionality for individuals and small teams. You can upgrade on the way</p>
+							<p>Cloud Wallet Full Node, through which they can participate immediately to the Masternode Super Validator process</p>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item strike-through">Cras justo odio</li>
-							<li class="list-group-item strike-through">Dapibus ac facilisis in</li>
-							<li class="list-group-item strike-through">Morbi leo risus</li>
-							<li class="list-group-item">Porta ac consectetur ac</li>
-							<li class="list-group-item">Vestibulum at eros</li>
+							<li class="list-group-item ">15000 LYRA</li>
+							<li class="list-group-item ">1 Year Masternode Hosting</li>							
+							<li class="list-group-item">Automatic Masternode Deployment</li>
+							<li class="list-group-item">Bonus 7500Lyra after 1yr*</li>
+							<li class="list-group-item">Staking in cloud</li>
 						</ul>
 						<div class="card-body">
-							<a href="#" class="btn btn-outline-2">Buy now</a>
+							<a href="#" class="btn btn-accent">Create Now</a>
 						</div>
 					</div>
+					* after 1 year of continued masternode activity without interruption.
 				</div>
 				<div class="col-md-6 mt-5">
 					<div class="card text-center">
 						<div class="pricing card-header bg-3-gradient color-1 d-flex align-items-center flex-column">
-							<h4>Business</h4>
-							<div class="pricing-value">
-								<span class="price bold">29.99</span>
+							<h4>Direct Listing</h4>
+							<div style="font-size:35px; margin:24px 0">
+								<span class="price bold">Mercatox</span>
 							</div>
-							<p>For settle companies looking to stay competitive in the market and growing with the technology</p>
+							<p>Gradual placing of LYRA into “direct listing” on the Mercatox.com exchange.</p>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item strike-through">Cras justo odio</li>
-							<li class="list-group-item strike-through">Dapibus ac facilisis in</li>
-							<li class="list-group-item">Morbi leo risus</li>
-							<li class="list-group-item">Porta ac consectetur ac</li>
-							<li class="list-group-item">Vestibulum at eros</li>
+							<li class="list-group-item">No predetermined amount</li>
+							<li class="list-group-item strike-through">1 year Masternode Hosting</li>
+							<li class="list-group-item strike-through">Bonus 50% MN Locked 1yr</li>
+							<li class="list-group-item strike-through">Staking in Cloud</li>
 						</ul>
 						<div class="card-body">
 							<a href="#" class="btn btn-accent">Buy now</a>
@@ -109,6 +109,18 @@
 					<h5 class="bold my-3">Browser support</h5>
 					<p class="my-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae dicta dolores hic porro quam voluptatibus.</p>
 				</div>
+			</div>
+		</div>
+	</section>
+	</section>
+	<!-- ./Register -->
+	<section class="section">
+		<div class="container bring-to-front">
+			<div class="shadow rounded text-center bg-4-gradient color-1 p-5">
+				<h2 class="mb-5">Mercatox Exchange Direct Listing</h2>
+				<p class="handwritten highlight font-md">Why wait? Start now!</p>
+				<a href="signup.html" class="btn btn-5 btn-rounded mt-4">LYRA/BTC</a>
+				<a href="signup.html" style="margin-left:15px" class="btn btn-5 btn-rounded mt-4">LYRA/USDC</a>
 			</div>
 		</div>
 	</section>
@@ -162,26 +174,16 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- ./Register -->
-	<section class="section">
-		<div class="container bring-to-front">
-			<div class="shadow rounded text-center bg-4-gradient color-1 p-5">
-				<h2 class="mb-5">Try Dashcore now.... love it forever</h2>
-				<p class="handwritten highlight font-md">Why wait? Start now!</p>
-				<a href="signup.html" class="btn btn-5 btn-rounded mt-4">Start now</a>
-			</div>
-		</div>
-	</section>
+	
 	<!-- ./CTA - Create Account -->
 	<section class="section bg-1 edge top-left b-b">
 		<div class="container pt-5">
 			<div class="d-flex align-items-center flex-column flex-md-row">
 				<div class="text-center text-md-left">
 					<p class="light mb-0 accent lead">Ready to get started?</p>
-					<h2 class="mt-0">Create an account now</h2>
+					<h2 class="mt-0">Create a masternode now</h2>
 				</div>
-				<a href="register.html" class="btn btn-accent btn-rounded mt-3 mt-md-0 ml-md-auto">Create DashCore account</a>
+				<a href="register.html" class="btn btn-accent btn-rounded mt-3 mt-md-0 ml-md-auto">Scrypta Masternodes Platform</a>
 			</div>
 		</div>
 	</section>

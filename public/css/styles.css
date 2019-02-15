@@ -8439,12 +8439,12 @@ section, .section {
       font-style: italic; }
     .pricing .pricing-value .price:before {
       position: absolute;
-      content: '$';
+      content: 'BTC';
       top: 10px;
-      left: -15px; }
+      left: -40px; }
     .pricing .pricing-value .price:after {
       position: relative;
-      content: '/mo'; }
+      content: '/MN'; }
     .pricing .pricing-value .price.yearly:after {
       content: '/yr'; }
 
