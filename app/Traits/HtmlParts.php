@@ -17,7 +17,7 @@ trait HtmlParts{
 						<div class="col-md-2">
 							<h6 class="py-2 bold">'.trans('messages.progettofooter').'</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="/'.$language.'/homepage">Home</a>	
+								<a class="nav-item py-2" href="/'.$language.'/homepage">Home</a>
 								<a class="nav-item py-2" href="/'.$language.'/about-scrypta">About</a>
 								<a class="nav-item py-2" href="https://github.com/scryptachain/roadmap/projects/1" target="_blank">Roadmap</a>
 							</nav>
@@ -35,7 +35,7 @@ trait HtmlParts{
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="/'.$language.'/homepage#wallet">Wallet</a>
 								<a class="nav-item py-2" href="/scrypta_light_paper_'.$language.'.pdf"target="_blank">Light Paper</a>
-							
+
 							</nav>
 						</div>
 					</div>
@@ -166,6 +166,9 @@ trait HtmlParts{
 				<link rel="stylesheet" href="/css/styles.css">
 				<link rel="stylesheet" href="/css/swiper.css">
 				<!-- endinject -->
+				<!-- Start of scryptachain Zendesk Widget script -->
+				<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=40ba57ed-b3d5-4acd-8696-e732d2b7002b"> </script>
+				<!-- End of scryptachain Zendesk Widget script -->
 			</head>
 
 			<body>
@@ -228,14 +231,14 @@ trait HtmlParts{
 				<meta http-equiv="X-UA-Compatible" content="IE=edge">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<title>Scrypta - Make Blockchain for real.</title>
-			
+
 				<!-- Favicon -->
 				<link rel="icon" type="image/png" href="/logo.png" />
-			
+
 				<!-- Bootstrap & Plugins CSS -->
 				<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 				<link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-			
+
 				<!-- Custom CSS -->
 				<link href="/assets/css/dark.css" rel="stylesheet" type="text/css">
 			</head>';
@@ -248,7 +251,7 @@ trait HtmlParts{
 	function footer(){
 			return
 			'
-    
+
 			<!-- ***** Contact & Footer Start ***** -->
 			<footer id="contact">
 				<div class="footer-bottom">
@@ -262,21 +265,21 @@ trait HtmlParts{
 				</div>
 			</footer>
 			<!-- ***** Contact & Footer End ***** -->
-		
-		
+
+
 			<!-- jQuery -->
 			<script src="/assets/js/jquery-2.1.0.min.js"></script>
-		
+
 			<!-- Bootstrap -->
 			<script src="/assets/js/popper.js"></script>
 			<script src="/assets/js/bootstrap.min.js"></script>
-		
+
 			<!-- Plugins -->
 			<script src="/assets/js/particles.min.js"></script>
 			<script src="/assets/js/scrollreveal.min.js"></script>
 			<script src="/assets/js/jquery.downCount.js"></script>
 			<script src="/assets/js/parallax.min.js"></script>
-		
+
 			<!-- Global Init -->
 			<script src="/assets/js/particle-dark.js"></script>
 			<script src="/assets/js/custom.js"></script>

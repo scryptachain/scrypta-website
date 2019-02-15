@@ -25,7 +25,7 @@ $router->get('{language}/about-scrypta',"WebController@about");
 $router->get('{language}/developers',"WebController@documentazione");
 
 $router->post('/registersell',"WebController@register");
-$router->get('/genesis',"WebController@genesis");
+$router->get('/crowdsale',"WebController@crowdsale");
 
 $router->get('/bot/get-me', 'TelegramController@getMe');
 $router->get('/bot/set-hook', 'TelegramController@setWebHook');

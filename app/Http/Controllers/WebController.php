@@ -23,7 +23,7 @@ class WebController extends Controller{
             $lang = $request->route()[2]['language'];
         }else{
             $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-            $acceptLang = ['sp', 'it', 'en']; 
+            $acceptLang = ['sp', 'it', 'en'];
             $lang = in_array($lang, $acceptLang) ? $lang : 'en';
         }
         $this->language = $lang;
@@ -51,11 +51,11 @@ class WebController extends Controller{
     function about(){
         return view('about', ['header' => $this->headerpublic($this->language,'about-scrypta'), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
-    function genesis(){
-        return view('genesis', ['header' => $this->header(), 'footer' => $this->footer(), 'menu' => $this->menu()]);
+    function crowdsale(){
+      return view('crowdsale', ['header' => $this->headerpublic($this->language,'about-scrypta'), 'footer' => $this->footerpublic($this->language), 'language' => $this->language]);
     }
     function register(Request $request){
-        
+
         app("db")->table("sells")->insert([
             "address" => $request->input('address'),
             "email" => $request->input('email'),
