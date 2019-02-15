@@ -43,7 +43,7 @@
 							<li class="list-group-item">Staking in cloud</li>
 						</ul>
 						<div class="card-body">
-							<a href="#" class="btn btn-accent">Join Crowdsale</a>
+							<a href="https://masternodes.scryptachain.org" target="_blank" class="btn btn-accent">Join Crowdsale</a>
 						</div>
 					</div>
 					* The Bonus will be issued after 1 year of continued masternode activity without interruption.
