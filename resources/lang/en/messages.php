@@ -94,4 +94,16 @@ return [
     'progettofooter' => "Project",
     'risorsefooter' => "Resources",
     'sviluppatorifooter' => "Developers Area",
-];
+    //Crowdsale
+    'crowdsaleintrotext' => 'Welcome to the official page of the Scrypta Crowdsale. During this distribution stage all participants can contribute to the project by collaborating on the growth of the infrastructure.',
+    'howcontribute' => 'How to Contribute',
+    'howcontributetext' => 'In order to join the Crowdsale, all partecipants can proceed through methods described below.',
+    '1yrhosting' => '1 Year Masternode Hosting',
+    'automaticdeploy' => 'Automatic Masternode Deployment',
+    'stakingcloud' => 'Staking in cloud',
+    'bonuslock' => '* The Bonus will be issued after 1 year of continued masternode activity without interruption.',
+    'directlisting' => 'Direct Exchange Listing',
+    'listingmercatox' => 'Gradual placing of LYRA into “direct listing” on the Mercatox.com exchange.',
+    'scryptamasternodeplatform' => 'Cloud Wallet Full Node, through which you can participate immediately to the Masternode Super Validator process.',
+    'noamount' => 'No predetermined amount'
+  ];

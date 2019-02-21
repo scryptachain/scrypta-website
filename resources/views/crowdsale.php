@@ -13,7 +13,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h1 class="regular display-4 color-1 mb-4">Scrypta Crowdsale</h1>
-					<p class="lead color-1">Welcome to the official page of the Scrypta Crowdsale. During this distribution stage all participants can contribute to the project by collaborating on the growth of the infrastructure.</p>
+					<p class="lead color-1"><?php echo trans('messages.crowdsaleintrotext'); ?></p>
 				</div>
 			</div>
 		</div>
@@ -22,8 +22,8 @@
 	<section>
 		<div class="container">
 			<div class="section-heading text-center">
-				<h2 class="mb-2">How to Contribute</h2>
-				<p class="lead color-2">In order to join the Crowdsale, all partecipants can proceed through methods described below.</p>
+				<h2 class="mb-2"><?php echo trans('messages.howcontribute'); ?></h2>
+				<p class="lead color-2"><?php echo trans('messages.howcontributetext'); ?></p>
 			</div>
 			<div class="row">
 			<div class="col-md-6 mt-5">
@@ -33,46 +33,48 @@
 							<div class="pricing-value">
 								<span class="price bold">0,5</span>
 							</div>
-							<p>Cloud Wallet Full Node, through which you can participate immediately to the Masternode Super Validator process</p>
+							<p><?php echo trans('messages.scryptamasternodeplatform'); ?></p>
 						</div>
 						<ul class="list-group list-group-flush">
 							<li class="list-group-item ">15000 LYRA</li>
-							<li class="list-group-item ">1 Year Masternode Hosting</li>							
-							<li class="list-group-item">Automatic Masternode Deployment</li>
+							<li class="list-group-item "><?php echo trans('messages.1yrhosting'); ?></li>
+							<li class="list-group-item"><?php echo trans('messages.automaticdeploy'); ?></li>
 							<li class="list-group-item">Bonus 7500 Lyra *</li>
-							<li class="list-group-item">Staking in cloud</li>
+							<li class="list-group-item"><?php echo trans('messages.stakingcloud'); ?></li>
 						</ul>
 						<div class="card-body">
 							<a href="https://masternodes.scryptachain.org" target="_blank" class="btn btn-accent">Join Crowdsale</a>
 						</div>
 					</div>
-					* The Bonus will be issued after 1 year of continued masternode activity without interruption.
+					<div class="text-center" style="font-size:12px; margin-top:15px">
+						<?php echo trans('messages.bonuslock'); ?>
+					</div>
 				</div>
 				<div class="col-md-6 mt-5">
 					<div class="card text-center">
 						<div class="pricing card-header bg-2-gradient color-1 d-flex align-items-center flex-column">
-							<h4>Direct Exchange Listing</h4>
-							<div style="font-size:35px; margin:13px 0">
+							<h4><?php echo trans('messages.directlisting'); ?></h4>
+							<div style="font-size:35px; margin:25px 0">
 								<span class="price bold">Mercatox</span>
 							</div>
-							<p>Gradual placing of LYRA into “direct listing” on the Mercatox.com exchange.</p>
+							<p><?php echo trans('messages.listingmercatox'); ?></p>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item">No predetermined amount</li>
-							<li class="list-group-item strike-through">1 year Masternode Hosting</li>
-							<li class="list-group-item strike-through">Automatic Masternode Deployment</li>
-							<li class="list-group-item strike-through">Bonus 50% MN Locked 1yr</li>
-							<li class="list-group-item strike-through">Staking in Cloud</li>
+							<li class="list-group-item"><?php echo trans('messages.noamount'); ?></li>
+							<li class="list-group-item strike-through"><?php echo trans('messages.1yrhosting'); ?></li>
+							<li class="list-group-item strike-through"><?php echo trans('messages.automaticdeploy'); ?></li>
+							<li class="list-group-item strike-through">Bonus 7500 Lyra *</li>
+							<li class="list-group-item strike-through"><?php echo trans('messages.stakingcloud'); ?></li>
 						</ul>
 						<div class="card-body">
-							<a href="https://mercatox.com/exchange/LYRA/BTC" target="_blank" class="btn btn-accent">Trade now</a>
+							<a href="https://mercatox.com/exchange/LYRA/BTC" target="_blank" class="btn btn-accent bg-2-gradient color-1">Trade now</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+
 </main>
 
 <?php echo $footer; ?>

@@ -19,7 +19,7 @@
 						<nav class="nav mt-5">
 							<a href="/scrypta_light_paper_<?php echo $language; ?>.pdf" target="_blank" class="nav-link mr-3 btn btn btn-rounded btn-1">
 								<i class="fas fa-tag mr-3"></i> <?php echo trans('messages.scaricalightpaper'); ?></a>
-							<!--<a href="/sostieni" class="nav-link btn btn-rounded btn-success">Sostieni il progetto</a>-->
+								<a href="/<?php echo $language; ?>/crowdsale" class="nav-link btn btn-rounded btn-success"><?php echo trans('messages.sostieniprogetto'); ?></a>
 						</nav>
 					</div>
 					<div class="col-md-5">
@@ -252,7 +252,7 @@
 				</div>
 			</div>
         </section>
-        
+
 		<section class="section block bg-1 mt-3n mb-6">
 			<div class="container bring-to-front py-4">
 				<div class="shadow rounded text-center bg-4-gradient color-1 p-5">
@@ -312,9 +312,9 @@
 				</div>
 			</div>
 		</section>
-        
 
-        
+
+
         <section class="section">
 			<div class="container">
 				<div class="row gap-y align-items-center">
@@ -334,6 +334,6 @@
 				</div>
 			</div>
         </section>
-        
+
     </main>
     <?php echo $footer; ?>

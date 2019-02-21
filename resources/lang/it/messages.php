@@ -94,5 +94,16 @@ return [
     'progettofooter' => "Progetto",
     'risorsefooter' => "Risorse",
     'sviluppatorifooter' => "Portale Sviluppatori",
-
+    //Crowdsale
+    'crowdsaleintrotext' => 'Benvenuto nella pagina ufficiale della Crowdsale di Scrypta . Durante la fase inziale di distribuzione i partecipanti possono contribuire al progetto collaborando alla crescita della insfrastruttura.',
+    'howcontribute' => 'Come contribuire',
+    'howcontributetext' => 'Per partecipare alla fase di Crowdsale, procedere attraverso i metodi descritti di seguito.',
+    '1yrhosting' => 'Hosting del masternode per 1 anno',
+    'automaticdeploy' => 'Deploy masternode automatico',
+    'stakingcloud' => 'Staking in cloud',
+    'bonuslock' => '* Il Bonus vertrà rilasciato dopo un anno di attività continuativa del masternode, senza interruzioni.',
+    'directlisting' => 'Scambio su Exchange',
+    'listingmercatox' => 'Immissione graduale di Lyra attraverso "direct listing" sulla piattaforma di trading Mercatox.',
+    'scryptamasternodeplatform' => 'Cloud Wallet Full Node, grazie al quale potrai partecipare immediatamente al processo di validazione tramite masternode.',
+    'noamount' => 'Nessun ammontare predefinito'
 ];
