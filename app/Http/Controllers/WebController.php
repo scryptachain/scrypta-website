@@ -22,9 +22,7 @@ class WebController extends Controller{
         if(isset($request->route()[2]['language'])){
             $lang = $request->route()[2]['language'];
         }else{
-            $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-            $acceptLang = ['sp', 'it', 'en'];
-            $lang = in_array($lang, $acceptLang) ? $lang : 'en';
+            $lang = 'en';
         }
         $this->language = $lang;
         app('translator')->setLocale($lang);
