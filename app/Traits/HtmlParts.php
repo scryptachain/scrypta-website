@@ -19,16 +19,19 @@ trait HtmlParts{
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="/'.$language.'/homepage">Home</a>
 								<a class="nav-item py-2" href="/'.$language.'/about-scrypta">About</a>
+								<a class="nav-item py-2" href="/'.$language.'/blockchain">Blockchain</a>
 								<a class="nav-item py-2" href="https://github.com/scryptachain/roadmap/projects/1" target="_blank">Roadmap</a>
+								
 							</nav>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">'.trans('messages.risorsefooter').'</h6>
 							<nav class="nav flex-column">
-								<a class="nav-item py-2" href="/'.$language.'/blockchain">Blockchain</a>
+								
 								<a class="nav-item py-2" href="/'.$language.'/developers">'.trans('messages.sviluppatorifooter').'</a>
 								<a class="nav-item py-2" href="https://chainz.cryptoid.info/lyra/"target="_blank">Block Explorer</a>
 								<a class="nav-item py-2" href="https://wiki.scryptachain.org/"target="_blank">Wiki Scrypta</a>
+								<a class="nav-item py-2" href="https://masternodes.scryptachain.org/register" target="_blank">Masternodes Platform</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
