@@ -23,11 +23,12 @@ trait HtmlParts{
 							</nav>
 						</div>
 						<div class="col-md-2">
-							<h6 class="py-2 bold">Risorse</h6>
+							<h6 class="py-2 bold">'.trans('messages.risorsefooter').'</h6>
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="/'.$language.'/blockchain">Blockchain</a>
 								<a class="nav-item py-2" href="/'.$language.'/developers">'.trans('messages.sviluppatorifooter').'</a>
 								<a class="nav-item py-2" href="https://chainz.cryptoid.info/lyra/"target="_blank">Block Explorer</a>
+								<a class="nav-item py-2" href="https://wiki.scryptachain.org/"target="_blank">Wiki Scrypta</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
@@ -35,9 +36,9 @@ trait HtmlParts{
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="/'.$language.'/homepage#wallet">Wallet</a>
 								<a class="nav-item py-2" href="/scrypta_light_paper_'.$language.'.pdf"target="_blank">Light Paper</a>
-
 							</nav>
 						</div>
+						
 					</div>
 					<hr class="mt-5">
 					<div class="row small align-items-center">
