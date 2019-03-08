@@ -260,7 +260,7 @@
 					<p>
 					<?php echo trans('messages.svilupparedapptext'); ?>
 					</p>
-					<a href="/sviluppatori" class="btn btn-5 btn-rounded mt-4"><?php echo trans('messages.portalesviluppatori'); ?></a>
+					<a href="/<?php echo $language; ?>/developers" class="btn btn-5 btn-rounded mt-4"><?php echo trans('messages.portalesviluppatori'); ?></a>
 				</div>
 			</div>
 		</section>
