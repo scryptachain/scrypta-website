@@ -12,7 +12,7 @@ trait HtmlParts{
 					<div class="row gap-y text-center text-md-left">
 						<div class="col-md-4 mr-auto">
 							<img src="/logo.png" alt="" class="logo">
-							<p>'.trans('messages.footertext').'<br> <br>E-mail: <a href="mailto:scryptachain@criptext.com"><strong>scryptachain@criptext.com</strong></a></p>
+							<p>'.trans('messages.footertext').'<br> <br>E-mail: <a href="mailto:info@scryptachain.org"><strong>info@scryptachain.org</strong></a></p>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 bold">'.trans('messages.progettofooter').'</h6>
