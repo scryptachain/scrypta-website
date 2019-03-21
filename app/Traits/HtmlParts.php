@@ -39,6 +39,7 @@ trait HtmlParts{
 							<nav class="nav flex-column">
 								<a class="nav-item py-2" href="/'.$language.'/homepage#wallet">Wallet</a>
 								<a class="nav-item py-2" href="/scrypta_light_paper_'.$language.'.pdf"target="_blank">Light Paper</a>
+								<a class="nav-item py-2" href="/scrypta_proofs_of_concepts_v1.pdf"target="_blank">Proofs of Concepts</a>
 							</nav>
 						</div>
 						
