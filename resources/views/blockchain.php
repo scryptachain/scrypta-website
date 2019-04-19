@@ -81,7 +81,7 @@
 							<li class="media d-block d-lg-flex">
 								<i class="pe pe-3x pe-7s-share accent icon-lg mr-3 text-lg-right"></i>
 								<div class="media-body mt-3 mt-lg-0 text-center text-md-left">
-									<h5 class="bold color-5">Masternode</h5>
+									<h5 class="bold color-5">Masternodes</h5>
 									<p class="mt-0 mb-5"><?php echo trans('messages.mntext'); ?>
 </p>
 								</div>

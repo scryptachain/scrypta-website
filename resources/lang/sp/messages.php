@@ -2,7 +2,7 @@
 
 return [
     //Homepage
-    'archiviazionecertificazione' => 'Archivo y Certificación',
+    'archiviazionecertificazione' => 'Adaptive Blockchain Technology',
     'archiviazionecertificazionetesto' => "Scrypta es una infraestructura digital descentralizada que simplifica y hace más eficientes los procesos de gestión, archivo y certificación de los sectores económico, productivo y social. El sistema flexible Scrypta permite crear arquitecturas completas para un número ilimitado de proyectos y nuevos casos de uso.",
     'scaricalightpaper' => "Descargue el Light Paper",
     //parte2

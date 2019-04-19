@@ -2,7 +2,7 @@
 
 return [
     ///Homepage
-    'archiviazionecertificazione' => 'Archiving and Certification',
+    'archiviazionecertificazione' => 'Adaptive Blockchain Technology',
     'archiviazionecertificazionetesto' => "Scrypta is a decentralized digital infrastructure that simplifies and makes more efficient managing, archiving and certification processes that feature the economic, productive and social sectors. Scrypta flexible system allows creating full architectures for unlimited projects and brand new use cases.",
     'scaricalightpaper' => "Download the Light Paper",
     ///
@@ -61,7 +61,7 @@ return [
     'features' => "Features",
     'featurestext' => "The Scrypta algorithm settles the generation of new Lyra at each block. New Lyra coins are assigned as rewards to the  network members through a <strong>Masternode/PoS</strong> consensus protocol.",
     'mntext' => "Masternodes are 24/7 online servers, acting as <strong>Scrypta blockchain validators</strong>. Masternodes receive rewards in LYRA to encourage their operativity. Rewards can be intended as a calculable and predictable passive income. Operating as a masternode validator requires the ownership of <strong>15000 LYRA</strong>.",
-    'stakingtext' => "Theanks to the <strong>Proof of Stake</strong> protocol, each creator of a new block is chosen deterministically according to his 'wealth'. The Scrypta Consensus algorithm selects a validator every 60 seconds and assigns the due rewards ('stake') to him, allowing him to create a single new block. In other words it means that the digital wallets of the network mint <strong>new coins</strong> generating a passive income.",
+    'stakingtext' => "Thanks to the <strong>Proof of Stake</strong> protocol, each creator of a new block is chosen deterministically according to his 'wealth'. The Scrypta Consensus algorithm selects a validator every 60 seconds and assigns the due rewards ('stake') to him, allowing him to create a single new block. In other words it means that the digital wallets of the network mint <strong>new coins</strong> generating a passive income.",
     'seesawtext' => "In order to allocate prizes efficiently, Scrypta adopts a system that dynamically changes the ratio among masternode rewards and staking rewards. The See-Saw mechanism allows all Lyra owners to be rewarded while holding value and performing the function of 'node', thus obtaining a fairer and less centralized system.",
     'specifiche' => "Tech Specs",
     'explorertext' => "BlockExplorer is the tool to explore blockchain blocks and their extraction, to obtain information on addresses and transactions and to know the status of Scrypta Blockchain.",
