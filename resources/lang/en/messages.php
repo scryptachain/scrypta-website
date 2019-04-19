@@ -2,7 +2,7 @@
 
 return [
     ///Homepage
-    'archiviazionecertificazione' => 'Adaptive Blockchain Technology',
+    'archiviazionecertificazione' => 'Adaptive Blockchain',
     'archiviazionecertificazionetesto' => "Scrypta is a decentralized digital infrastructure that simplifies and makes more efficient managing, archiving and certification processes that feature the economic, productive and social sectors. Scrypta flexible system allows creating full architectures for unlimited projects and brand new use cases.",
     'scaricalightpaper' => "Download the Light Paper",
     ///
