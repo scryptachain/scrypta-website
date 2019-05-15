@@ -85,10 +85,10 @@ return [
     'taskforcetext3' => "Esplorare e favorire molteplici potenziali casi d'uso per i cripto-algoritmi basati su blockchain Scrypta.",
     'taskforcetext4' => "Creare il “Genesis Block” - il blocco 0 - della blockchain di Scrypta.",
     'foundationtext' => "E’ un’organizzazione autonoma, regolamentata giuridicamente, che rappresenta e finanzia progetti legati all’architettura di Scrypta. Comunica e diffonde la visione del progetto  e offre consulenze finalizzate allo sviluppo dell’intero ecosistema.",
-    'consortiumtext' => "E’ un’associazione no profit dotata di un fondo proprietario allo scopo di finanziare progetti di ricerca  su Scrypta, portati avanti da comunità di sviluppo indipendenti, imprese, pubbliche amministrazioni e organizzazioni autonome.",
+    'consortiumtext' => "Questo comitato è composto da un team qualificato di sviluppatori, studiosi ed esperti che si prefigge lo scopo di elaborare gli indirizzi scientifici in ordine allo sviluppo dell’infrastruttura Scrypta e, più in generale, facilitare l’adozione e l’implementazione di applicazioni Blockchain oriented e tecnologie correlate.",
     ///Footer
     'sviluppatori' => "Sviluppatori",
-    'sostieniprogetto' => "Sostieni il progetto",
+    'sostieniprogetto' => "Wiki Guide",
     'contatti' => "Contatti",
     'footertext' => "Scrypta, infrastruttura decentralizzata di archiviazione e certificazione che offre la possibilità di ridefinire i modelli di business e le relazioni tra cittadini, imprese e governi.",
     'progettofooter' => "Progetto",

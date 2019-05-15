@@ -21,7 +21,7 @@ return [
     'walletscrypta' => "Scrypta Wallet",
     'walletscryptatext' => "The Scrypta Client allows you to manage the <strong>Lyra</strong> digital currency in complete security. We strongly recommend to employ the official Scrypta Wallet featured with storage capabilities for your addresses private keys. Think of the <strong>Lyra Wallet</strong> as your bank account: take extra precautions with your passwords and make sure to run regular backups. Download the suitable Client for your operating system:",
     ///
-    'organizzazioni' => "Task Force, Foundation and Consortium partake in the development of the Scrypta project, with the common goal of promoting and experimenting new technological achievements based on the open-source language Scrypta.",
+    'organizzazioni' => "Task Force, Foundation and Scientific Advisory Board partake in the development of the Scrypta project, with the common goal of promoting and experimenting new technological achievements based on the open-source language Scrypta.",
     'approfondisci' => "Read More",
     ///
     'svilupparedapp' => "Scrypta dApp development",
@@ -85,10 +85,10 @@ return [
     'taskforcetext3' => "Explore and foster multiple potential use cases for crypto-algorithms based on Scrypta blockchain.",
     'taskforcetext4' => "‘Genesis Block’ creation,  block 0 of the Scrypta blockchain.",
     'foundationtext' => "It is an autonomous, legally regulated organization that represents and finances projects related to the Scrypta architecture. It communicates and spreads the Project vision, offering consultancy aimed to the entire ecosystem development.",
-    'consortiumtext' => "It is a non-profit association with a proprietary fund aimed to finance Scrypta research projects carried out by independent development communities, businesses, public administrations and autonomous organizations.",
+    'consortiumtext' => "This committee is composed of a qualified team of developers and experts with the aim to develop the scientific guidelines to improve Scrypta infrastructure and facilitate the adoption and implementation of Blockchain oriented applications with related technologies.",
     ///Footer
     'sviluppatori' => "Developers",
-    'sostieniprogetto' => "Support the project",
+    'sostieniprogetto' => "Wiki Guide",
     'contatti' => "Contacts",
     'footertext' => "Scrypta, a decentralized storage and certification infrastructure offering the opportunity to redefine business models and relationships among citizens, businesses and governments.",
     'progettofooter' => "Project",

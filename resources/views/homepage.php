@@ -19,7 +19,7 @@
 						<nav class="nav mt-5">
 							<a href="/scrypta_light_paper_<?php echo $language; ?>.pdf" target="_blank" class="nav-link mr-3 btn btn btn-rounded btn-1">
 								<i class="fas fa-tag mr-3"></i> <?php echo trans('messages.scaricalightpaper'); ?></a>
-								<a href="/<?php echo $language; ?>/crowdsale" class="nav-link btn btn-rounded btn-success"><?php echo trans('messages.sostieniprogetto'); ?></a>
+								<a href="https://scryptachain.gitbook.io/documentation/" target="_blank" class="nav-link btn btn-rounded btn-success"><?php echo trans('messages.sostieniprogetto'); ?></a>
 						</nav>
 					</div>
 					<div class="col-md-5">
@@ -245,9 +245,10 @@
 								<i class="icon fas fa-2x fa-city center-xy color-1"></i>
 							</div>
 						</div>
-						<h2 class="bold text-capitalize">Task Force, Foundation & Consortium</h2>
+						<h2 class="bold text-capitalize">Task Force, Foundation & Scientific Advisory Board</h2>
 						<p class="regular"><?php echo trans('messages.organizzazioni'); ?></p>
 						<a href="/about-scrypta" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4"><?php echo trans('messages.approfondisci'); ?></a>
+						<a href="https://scrypta.foundation" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Foundation website</a>
 					</div>
 				</div>
 			</div>

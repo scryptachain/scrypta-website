@@ -44,12 +44,14 @@
 								<h4 class="mr-3">Scrypta Foundation</h4>
 							</a>
 							<p class="mt-4 text-left"><?php echo trans('messages.foundationtext'); ?></p>
+							<a href="https://scrypta.foundation" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Read more</a>
 						</div>
 						<div class="col-12 col-md-6 py-4 px-5">
 							<a href="javascript:void(0)" class="mt-4 color-3">
-								<h4 class="mr-3">Scrypta Consortium</h4>
+								<h4 class="mr-3">Scientific Advisory Board</h4>
 							</a>
 							<p class="mt-4 text-left"><?php echo trans('messages.consortiumtext'); ?></p>
+							<a href="https://scrypta.foundation" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Read more</a>
 						</div>
 					</div>
 				</div>
