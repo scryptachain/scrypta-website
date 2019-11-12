@@ -26,21 +26,21 @@
 								<h4 class="bold mr-3">RESTful API</h4>
 							</a>
 							<p class="mt-4"><?php echo trans('messages.apitext'); ?></p>
-							
+
 						</div>
 						<div class="col-md-4 py-4 px-5 d-flex flex-column b-md-r">
 							<a href="javascript:void(0)" class="color-5">
 								<h4 class="bold mr-3">IdA Nodes</h4>
 							</a>
 							<p class="mt-4"><?php echo trans('messages.idanodetext'); ?></p>
-							
+
 						</div>
 						<div class="col-md-4 py-4 px-5 d-flex flex-column">
 							<a href="javascript:void(0)" class="color-5">
 								<h4 class="bold mr-3">IPFS Storage</h4>
 							</a>
 							<p class="mt-4"><?php echo trans('messages.ipfstext'); ?></p>
-							
+
 						</div>
 					</div>
 				</div>
@@ -49,7 +49,7 @@
 		<!-- ./Counters -->
 		<section class="text-center">
 			<h2><?php echo trans('messages.prestodisponibile'); ?></h2>
-			<h3><?php echo trans('messages.rimaniincontatto'); ?></h3>
+			<h3><a href="<?php echo trans('messages.rimaniincontatto'); ?>" target="_blank"><?php echo trans('messages.rimaniincontatto'); ?></a></h3><br><br>
 		</section>
 	</main>
 

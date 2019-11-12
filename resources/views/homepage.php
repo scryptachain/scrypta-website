@@ -215,6 +215,9 @@
 						<a href="/wallet/lyra-1.0.0-macOS.dmg" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Mac</a>
 						<a href="/wallet/lyra-1.0.0-win32-64.zip" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Windows</a>
 						<a href="/wallet/lyra-1.0.0-x86_64-linux-gnu.tar.gz" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Linux</a>
+						<a href="https://web.manent.app" target="_blank" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Web</a><br>
+						<a href="https://play.google.com/store/apps/details?id=foundation.scrypta.manent" target="_blank" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Android</a>
+						<a href="https://apps.apple.com/us/app/scrypta-manent/id1484816083" target="_blank" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">iOS</a>
 					</div>
 				</div>
 				<div class="row gap-y align-items-center py-5">
@@ -316,7 +319,7 @@
 
 
 
-        <section class="section">
+        <!--<section class="section">
 			<div class="container">
 				<div class="row gap-y align-items-center">
 					<div class="col-md-6">
@@ -334,7 +337,7 @@
 					</div>
 				</div>
 			</div>
-        </section>
+		</section>-->
 
     </main>
     <?php echo $footer; ?>

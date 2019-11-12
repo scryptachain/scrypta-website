@@ -110,7 +110,7 @@
 			<div class="container">
 				<div class="section-heading text-center">
 					<h2><?php echo trans('messages.specifiche'); ?></h2>
-				
+
 				</div>
 				<div class="row gap-y">
 					<div class="col-md-3">
@@ -118,7 +118,7 @@
 							<div class="card-body text-center">
 							    <p class="mb-0">TICKER</p>
 								<h3 class="bold">LYRA</h3>
-								
+
 							</div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 							<div class="card-body text-center">
 							     <p class="mb-0">ALGORITHM</p>
 								<h3 class="bold">QUARK</h3>
-								
+
 							</div>
 						</div>
 					</div>
@@ -136,7 +136,7 @@
 							<div class="card-body text-center">
 							<p class="mb-0">COIN TYPE</p>
 								<h3 class="bold">MN/PoS</h3>
-								
+
 							</div>
 						</div>
 					</div>
@@ -145,7 +145,7 @@
 							<div class="card-body text-center">
 							    <p class="mb-0">BLOCK TIME</p>
 								<h3 class="bold">60 sec.</h2>
-								
+
 							</div>
 						</div>
 					</div>
@@ -154,7 +154,7 @@
 							<div class="card-body text-center">
 							    <p class="mb-0">MAX SUPPLY</p>
 								<h3 class="bold">50M LYRA</h3>
-								
+
 							</div>
 						</div>
 					</div>
@@ -163,7 +163,7 @@
 							<div class="card-body text-center">
 							<p class="mb-0">RPC/P2P PORTS</p>
 								<h3 class="bold">42223 / 42222</h3>
-								
+
 							</div>
 						</div>
 					</div>
@@ -172,7 +172,7 @@
 							<div class="card-body text-center">
 							<p class="mb-0">MASTERNODE COLLATERAL</p>
 								<h3 class="bold">15.000 LYRA</h3>
-								
+
 							</div>
 						</div>
 					</div>
@@ -201,7 +201,7 @@
 						</p>
 					</div>
 					<div class="col-md-4 ml-md-auto">
-						<a href="https://chainz.cryptoid.info/lyra/" target="_blank" class="btn btn-1 ml-3"><?php echo trans('messages.entra'); ?></a>
+						<a href="https://explorer.scryptachain.org" target="_blank" class="btn btn-1 ml-3"><?php echo trans('messages.entra'); ?></a>
 					</div>
 				</div>
 			</div>

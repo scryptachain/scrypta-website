@@ -73,10 +73,10 @@ return [
     'animazione2' => "Integra con il Web",
     'animazione3' => "Crea Database",
     'apitext' => "Le API che permettono tecniche innovative di <strong>interfacciamento con la blockchain</strong>. Gli sviluppatori possono così ideare specifiche applicazioni decentralizzate utilizzando i <strong>linguaggi standard</strong> di programmazione per il web.",
-    'idanodetext' => "Recepiscono i più comuni linguaggi di sviluppo come <strong>PHP, NodeJS e MongoDB</strong> e servono sostanzialmente a decifrare tutte le operazioni sottintese e complesse che vengono svolte dall’utilizzatore finale di un’applicazione.",
+    'idanodetext' => "Recepiscono i più moderni strumenti di sviluppo come <strong>NodeJS e MongoDB</strong> e servono sostanzialmente a decifrare tutte le operazioni sottintese e complesse che vengono svolte dall’utilizzatore finale di un’applicazione decentralizzata.",
     'ipfstext' => "Attraverso l'unione dei masternode e degli IdA Node, abbiamo creato un'infrastruttura di base per l'<strong>Inter Planetary File System</strong>: un’innovativa tecnica per creare archivi decentralizzati e distribuiti per file e hypermedia.",
-    'prestodisponibile' => "La documentazione dettagliata sarà presto disponibile!",
-    'rimaniincontatto' => "Rimani in contatto con noi.",
+    'prestodisponibile' => "La documentazione dettagliata è disponibile al seguente link",
+    'rimaniincontatto' => "https://wiki-it.scryptachain.org",
     ///Assetto (pagina)
     'assetto' => "L'Assetto di Scrypta",
     'assettotext' => "Le Organizzazioni che promuovono e partecipano allo sviluppo del Progetto, con la missione comune di favorire e sperimentare nuove prospettive tecnologiche basate sul linguaggio open-source offerto da Scrypta.",

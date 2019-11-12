@@ -73,10 +73,10 @@ return [
     'animazione2' => "Web Integration",
     'animazione3' => "Database Creation",
     'apitext' => "APIs allowing innovative way to <strong> interface with the blockchain</strong>. Developers can design specific decentralized applications using standard web programming languages.",
-    'idanodetext' => "They incorporate the most common development languages ​​such as <strong>PHP, NodeJS e MongoDB</strong> nd serve to decipher all the underlying and complex operations that are carried out by applications end users.",
+    'idanodetext' => "They incorporate the most common development technologies ​​such as <strong>NodeJS e MongoDB</strong> and serve to decipher all the underlying and complex operations that are carried out by applications end users.",
     'ipfstext' => "Through the union of masternodes and IdA Nodes we deployed a basic infrastructure for the <strong>Inter Planetary File System</strong>: an innovative technique for creating decentralized and distributed archives for files and hypermedia.",
-    'prestodisponibile' => "Detailed documentation will be ready soon",
-    'rimaniincontatto' => "Keep in touch!",
+    'prestodisponibile' => "Detailed documentation is available here:",
+    'rimaniincontatto' => "https://wiki.scryptachain.org",
     ///Layout (page)
     'assetto' => "The Layout of Scrypta",
     'assettotext' => "Scrypta layout is defined by the organizations that promote and participate in the development of the Project, with the common mission of encouraging and experimenting new technological perspectives based on the Scrypta open-source language.",
