@@ -21,7 +21,7 @@ trait HtmlParts{
 								<a class="nav-item py-2" href="/'.$language.'/about-scrypta">About</a>
 								<a class="nav-item py-2" href="/'.$language.'/blockchain">Blockchain</a>
 								<a class="nav-item py-2" href="https://github.com/scryptachain/roadmap/projects/1" target="_blank">Roadmap</a>
-
+								<a class="nav-item py-2" href="https://wiki.scryptachain.org/general-scrypta-information/buy-and-sell-lyra">Exchange</a>
 							</nav>
 						</div>
 						<div class="col-md-2">
@@ -208,6 +208,9 @@ trait HtmlParts{
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="/'.$language.'/homepage#wallet">Wallet</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" target="_blank" href="https://wiki.scryptachain.org/general-scrypta-information/buy-and-sell-lyra">Exchange</a>
 								</li>
 							</ul>
 							<ul class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
