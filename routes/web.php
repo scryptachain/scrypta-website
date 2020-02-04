@@ -23,10 +23,6 @@ $router->get('{language}/homepage',"WebController@homepage");
 $router->get('{language}/blockchain',"WebController@blockchain");
 $router->get('{language}/about-scrypta',"WebController@about");
 $router->get('{language}/developers',"WebController@documentazione");
-$router->get('{language}/crowdsale',"WebController@crowdsale");
-
-$router->post('/registersell',"WebController@register");
-$router->get('/crowdsale',"WebController@crowdsale");
 
 $router->get('/bot/get-me', 'TelegramController@getMe');
 $router->get('/bot/set-hook', 'TelegramController@setWebHook');
