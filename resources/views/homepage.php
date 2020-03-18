@@ -213,7 +213,7 @@
 						<h2 class="bold text-capitalize"><?php echo trans('messages.walletscrypta'); ?></h2>
 						<p class="regular"><?php echo trans('messages.walletscryptatext'); ?></p>
 						<a href="https://github.com/scryptachain/scrypta/releases/download/v1.1.0/lyra-1.1.0-macOS.dmg" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Mac</a>
-						<a href="https://github.com/scryptachain/scrypta/releases/download/v1.1.0/lyra-1.1.0-win32-64.zip" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Windows</a>
+						<a href="https://github.com/scryptachain/scrypta/releases/download/v1.1.0/lyra-1.1.0-win32_64.zip" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Windows</a>
 						<a href="https://github.com/scryptachain/scrypta/releases/download/v1.1.0/lyra-1.1.0-x86_64-linux-gnu.tar.gz" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Linux</a>
 						<a href="https://github.com/scryptachain/scrypta/releases/download/v1.1.0/lyra-1.1.0-rasp4.tar.gz" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Raspberry Pi4</a>
 						<a href="https://web.manent.app" target="_blank" class="btn gradient gradient-43 color-1 btn-rounded btn-outline-1 bw-2 bold mt-4">Web</a><br>
