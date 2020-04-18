@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: scryptachain.org
-Token: a749f4c253f73c5a3d0afee2fa1984eb7077a4701108d259a0ebb6a578062a03
