@@ -6,3 +6,4 @@ RewriteEngine On
 # RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteRule "scrypta-blockchain" "%{DOCUMENT_ROOT}/blockchain.html"  [L]
 RewriteRule "dapps" "%{DOCUMENT_ROOT}/dapps.html"  [L]
+RewriteRule "developers" "%{DOCUMENT_ROOT}/developers.html"  [L]
