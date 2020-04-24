@@ -4298,7 +4298,7 @@ ol.breadcrumb.text-darker a:hover { color: #000; }
 
 .lqd-promo-content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding: 60px 0 60px 15px; width: 39.25%; -webkit-box-flex: 0; -ms-flex: 0 auto; flex: 0 auto; }
 .lqd-promo-content > * { -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
-.lqd-promo-content h2 { margin: 0 -1em 0 -1em; font-size: 120px; font-weight: 700; line-height: 1em; }
+.lqd-promo-content h2 { margin: 0 -1em 25px -1em; font-size: 50px; font-weight: 700; line-height: 1em; }
 .lqd-promo-content .lqd-words, .lqd-promo-content .lqd-lines { white-space: nowrap; }
 .lqd-promo-content .split-inner { display: inline-block; }
 .lqd-promo-content .btn { margin-top: auto; }
