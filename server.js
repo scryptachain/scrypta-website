@@ -11,7 +11,7 @@ let routes = {
     '/developers': 'developers.html',
     '/en': 'en/index.html',
     '/en/scrypta-blockchain': 'en/blockchain.html',
-    '/en/dapps': 'en/apps.html',
+    '/en/dapps': 'en/dapps.html',
     '/en/developers': 'en/developers.html',
 }
 
