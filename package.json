@@ -1,0 +1,26 @@
+{
+  "name": "scrypta-website",
+  "version": "1.0.0",
+  "description": "Scrypta Blockchain Website",
+  "main": "server.js",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scryptachain/scrypta-website.git"
+  },
+  "author": "Scrypta Task Force",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scryptachain/scrypta-website/issues"
+  },
+  "homepage": "https://github.com/scryptachain/scrypta-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
