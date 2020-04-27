@@ -130,7 +130,8 @@
 										</li>
 									</ul>
 
-									<div class="header-module">
+									<!--desktop social-->
+									<div class="desk_menu header-module">
 										<ul class="social-icon scheme-white social-icon-md">
 											<li>
 												<a href="https://github.com/scryptachain/" target="_blank">
@@ -180,7 +181,46 @@
 												</a>
 											</li>
 										</ul>
-									</div><!-- /.header-module -->
+									</div>
+									<!--END | desktop social-->
+
+									<!--mobile social-->
+									<div class="mobile_menu header-module">
+										<ul class="social-icon scheme-white social-icon-md">
+											<li>
+												<a href="https://github.com/scryptachain/" target="_blank">
+													<i class="fa fa-github"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://www.facebook.com/scryptafoundation" target="_blank">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://twitter.com/scryptachain" target="_blank">
+													<i class="fa fa-twitter"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://www.linkedin.com/company/scrypta-foundation/"
+													target="_blank">
+													<i class="fa fa-linkedin"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://t.me/scryptachain_official" target="_blank">
+													<i class="fa fa-telegram"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://discord.gg/8mfDRVK" target="_blank">
+													<i class="fab fa-discord"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<!--END | mobile social-->
 
 								</div><!-- /.collapse -->
 
@@ -528,7 +568,8 @@
 									</div><!-- /.iconbox-icon-wrap -->
 									<div class="contents">
 										<h3>Transazioni</h3>
-										<p class="font-size-16 lh-165">Sono costituite dai dati che rappresentano i valori
+										<p class="font-size-16 lh-165">Sono costituite dai dati che rappresentano i
+											valori
 											oggetto di “scambio” e necessitano di essere verificate, approvate e
 											archiviate.</p>
 									</div><!-- /.contents -->
@@ -1133,7 +1174,7 @@
 
 						<div class="lqd-column col-md-3 col-md-offset-1 text-center">
 
-							<a href="#"
+							<a href="https://explorer.scryptachain.org/" target="_blank"
 								class="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin btn-gradient font-weight-bold px-2"
 								data-localscroll="true" data-localscroll-options='{"scrollBelowSection": true}'>
 								<span>
@@ -1403,10 +1444,11 @@
 </body>
 
 <style>
-		@media screen and (max-width: 1199px) {
+	@media screen and (max-width: 1199px) {
 		[data-mobile-header-scheme=gray] .main-header .navbar-header {
 			background-color: rgba(255, 255, 255, 0)
 		}
+
 		.navbar-brand img {
 			max-width: 70%;
 		}
@@ -1415,6 +1457,10 @@
 	@media screen and (max-width: 768px) {
 		.desktop_main {
 			display: none;
+		}
+
+		.desk_menu {
+			display: none !important;
 		}
 
 		.features_desktop {
@@ -1429,6 +1475,10 @@
 	@media screen and (min-width: 769px) {
 		.mobile_main {
 			display: none;
+		}
+
+		.mobile_menu {
+			display: none !important;
 		}
 
 		.features_mobile {
