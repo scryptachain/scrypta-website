@@ -6,11 +6,11 @@ const fs = require('fs')
 
 let routes = {
     '/': 'index.html',
-    '/scrypta-blockchain': 'blockchain.html',
+    '/blockchain': 'blockchain.html',
     '/dapps': 'dapps.html',
     '/developers': 'developers.html',
     '/en': 'en/index.html',
-    '/en/scrypta-blockchain': 'en/blockchain.html',
+    '/en/blockchain': 'en/blockchain.html',
     '/en/dapps': 'en/dapps.html',
     '/en/developers': 'en/developers.html',
 }
