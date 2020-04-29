@@ -1,0 +1,26 @@
+.hide-mobile{
+    display: block!important;
+}
+.show-mobile{
+    display: none!important;
+}
+
+@media screen and (max-width: 768px){
+    .hide-mobile{
+        display: none!important;
+    }
+    .show-mobile{
+        display: block!important;
+    }
+    .mobile-padding-fix{
+        padding-top:0px!important;
+    }
+    .mobile-margin-bottom-fix{
+        margin-bottom:0px!important;
+    }
+    .mobile-margin-fix.vc_row{
+        margin-top:0px!important;
+        padding-top:0px!important;
+        padding-bottom: 0px!important;
+    }
+}

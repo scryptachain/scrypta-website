@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule (\W|^)en/(\W|$) en/index.html [L]
+RewriteRule (\W|^)en/blockchain(\W|$) en/blockchain.html [L]
+RewriteRule (\W|^)en/dapps(\W|$) en/dapps.html [L]
+RewriteRule (\W|^)en/developers(\W|$) en/developers.html [L]
+
+RewriteRule (\W|^)blockchain(\W|$) blockchain.html [L]
+RewriteRule (\W|^)dapps(\W|$) dapps.html [L]
+RewriteRule (\W|^)developers(\W|$) developers.html [L]
